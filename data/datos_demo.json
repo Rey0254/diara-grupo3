@@ -1,0 +1,41 @@
+
+{
+  "tipo_datos": "SIMULADOS - SOLO PARA DESARROLLO",
+  "obra": {
+    "id": "limoncito",
+    "nombre": "Escuela de Limoncito",
+    "ubicacion": "Limón, Costa Rica",
+    "institucion_responsable": null,
+    "avance_contractual": null,
+    "ultima_actualizacion": "2026-04-17"
+  },
+  "registros": [
+    {
+      "fecha": "2026-04-15",
+      "personas_detectadas": 8,
+      "maquinaria_detectada": 2,
+      "casco": "Parcial",
+      "chaleco": "Parcial",
+      "estado_datos": "disponible",
+      "fotografias": []
+    },
+    {
+      "fecha": "2026-04-16",
+      "personas_detectadas": null,
+      "maquinaria_detectada": null,
+      "casco": "No determinable",
+      "chaleco": "No determinable",
+      "estado_datos": "sin datos",
+      "fotografias": []
+    },
+    {
+      "fecha": "2026-04-17",
+      "personas_detectadas": 12,
+      "maquinaria_detectada": 3,
+      "casco": "Parcial",
+      "chaleco": "Parcial",
+      "estado_datos": "disponible",
+      "fotografias": []
+    }
+  ]
+}
