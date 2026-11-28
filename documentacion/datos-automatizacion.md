@@ -90,7 +90,7 @@ Comparación en las 237 fotos usables que también analizó Gemini (CGR). Primer
 | Fotos con personas detectadas | 68 % de las que Gemini marca con personas | Referencia |
 | Personas contadas | 322 (menos de la mitad) | 681 |
 | Estado del día (regla de 2 fotos, solo con la muestra de 5 fotos) | Coincide en 40 de 47 días (85 %) | Referencia |
-| Costo | US$0; 0,22 s por foto en CPU | Gemini 2.5 Flash: US$0,30 por millón de tokens de entrada y US$2,50 por millón de salida (precio estándar consultado el 28-nov-2026). Costo real: ver `gemini_uso_tokens.csv` |
+| Costo | US$0; 0,22 s por foto en una laptop y 0,86 s en el servidor gratuito de GitHub | Gemini 3.5 Flash-Lite: US$0,30 por millón de tokens de entrada y US$2,50 por millón de salida, razonamiento incluido (precio estándar consultado el 28-nov-2026). Costo real: ver `gemini_uso_tokens.csv` |
 | Qué ve | Personas y camiones | Personas, maquinaria, casco, chaleco, arnés, clima, etapa |
 
 **Con el lente empañado:** en 145 fotos borrosas de la muestra, Gemini dijo "0 trabajadores" en 114, no pudo analizar 18 y vio personas en 13. obrapublica.info muestra esos días como 0 trabajadores, aunque en realidad no se puede saber.
@@ -135,7 +135,7 @@ Es compatible con `datos_demo.json`: tiene los mismos campos, y los nuevos son o
 
 **Para el análisis con IA:**
 9. **Filtrar antes de pagar tokens** y usar Gemini en una muestra diaria.
-10. **Registrar el modelo y su versión:** según una fuente consultada, Gemini 2.5 Flash pasa a 3.5 Flash-Lite el 1-dic-2026, así que hay que volver a validar los resultados.
+10. **Registrar el modelo y su versión:** Gemini 2.5 Flash ya no acepta claves nuevas (nuestra primera ejecución recibió 404 en las 380 fotos), así que usamos 3.5 Flash-Lite. La CGR no publica qué modelo usa; cada cambio de modelo obliga a volver a validar los conteos contra la referencia humana.
 11. **Ajustar un modelo abierto con fotos de la propia obra** (la CGR ya tiene imágenes etiquetadas) para contar trabajadores pequeños y lejanos sin costo por foto.
 12. **Revisar la regla de 2 fotos** con más datos: algunos domingos tienen solo 2 o 3 fotos con personas, que podrían ser vigilancia y no trabajo.
 
