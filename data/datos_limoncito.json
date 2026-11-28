@@ -1,6 +1,6 @@
 {
  "tipo_datos": "REALES · Fotos de la cámara dIAra (CGR) · Procesamiento: Grupo 3, LEAD University",
- "generado": "2026-11-28T13:40:52+00:00",
+ "generado": "2026-11-28T16:04:14+00:00",
  "obra": {
   "id": "limoncito",
   "nombre": "Escuela Barrio Limoncito",
@@ -360,7 +360,7 @@
   },
   {
    "fecha": "2025-09-18",
-   "personas_detectadas": 3,
+   "personas_detectadas": 2,
    "maquinaria_detectada": 0,
    "casco": "No determinable",
    "chaleco": "No determinable",
@@ -388,11 +388,11 @@
    "calidad_fotos": "baja",
    "n_fotos": 31,
    "n_fotos_usables": 2,
-   "n_fotos_con_personas": 8,
+   "n_fotos_con_personas": 7,
    "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
    "maquinaria_lista": [],
    "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 31 fotos; 2 sirvieron para analizar la obra. No sirvieron: 15 borrosas (lente empañado o sucio), 13 sobreexpuestas (casi blancas), 1 sin contraste. Se vieron personas en 8 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "resumen_dia": "La cámara tomó 31 fotos; 2 sirvieron para analizar la obra. No sirvieron: 15 borrosas (lente empañado o sucio), 13 sobreexpuestas (casi blancas), 1 sin contraste. Se vieron personas en 7 fotos. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": null,
    "alertas": [
     "camara-3"
@@ -680,7 +680,7 @@
   },
   {
    "fecha": "2025-09-24",
-   "personas_detectadas": 1,
+   "personas_detectadas": 2,
    "maquinaria_detectada": 0,
    "casco": "No determinable",
    "chaleco": "No determinable",
@@ -2372,11 +2372,11 @@
    "calidad_fotos": "baja",
    "n_fotos": 19,
    "n_fotos_usables": 0,
-   "n_fotos_con_personas": 3,
+   "n_fotos_con_personas": 2,
    "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
    "maquinaria_lista": [],
    "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 19 fotos; 0 sirvieron para analizar la obra. No sirvieron: 11 sobreexpuestas (casi blancas), 7 borrosas (lente empañado o sucio), 1 muy oscuras. Se vieron personas en 3 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "resumen_dia": "La cámara tomó 19 fotos; 0 sirvieron para analizar la obra. No sirvieron: 11 sobreexpuestas (casi blancas), 7 borrosas (lente empañado o sucio), 1 muy oscuras. Se vieron personas en 2 fotos. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": null,
    "alertas": [
     "camara-4"
@@ -2768,11 +2768,11 @@
    "calidad_fotos": "baja",
    "n_fotos": 15,
    "n_fotos_usables": 0,
-   "n_fotos_con_personas": 3,
+   "n_fotos_con_personas": 2,
    "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
    "maquinaria_lista": [],
    "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 15 fotos; 0 sirvieron para analizar la obra. No sirvieron: 15 borrosas (lente empañado o sucio). Se vieron personas en 3 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "resumen_dia": "La cámara tomó 15 fotos; 0 sirvieron para analizar la obra. No sirvieron: 15 borrosas (lente empañado o sucio). Se vieron personas en 2 fotos. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": null,
    "alertas": [
     "camara-5"
@@ -2880,11 +2880,11 @@
    "calidad_fotos": "baja",
    "n_fotos": 25,
    "n_fotos_usables": 0,
-   "n_fotos_con_personas": 5,
+   "n_fotos_con_personas": 4,
    "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
    "maquinaria_lista": [],
    "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 25 fotos; 0 sirvieron para analizar la obra. No sirvieron: 25 borrosas (lente empañado o sucio). Se vieron personas en 5 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "resumen_dia": "La cámara tomó 25 fotos; 0 sirvieron para analizar la obra. No sirvieron: 25 borrosas (lente empañado o sucio). Se vieron personas en 4 fotos. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": null,
    "alertas": [
     "camara-5"
@@ -3168,11 +3168,11 @@
    "calidad_fotos": "baja",
    "n_fotos": 19,
    "n_fotos_usables": 1,
-   "n_fotos_con_personas": 7,
+   "n_fotos_con_personas": 8,
    "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
    "maquinaria_lista": [],
    "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 19 fotos; 1 sirvieron para analizar la obra. No sirvieron: 18 borrosas (lente empañado o sucio). Se vieron personas en 7 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "resumen_dia": "La cámara tomó 19 fotos; 1 sirvieron para analizar la obra. No sirvieron: 18 borrosas (lente empañado o sucio). Se vieron personas en 8 fotos. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": null,
    "alertas": [
     "camara-5"
@@ -3293,7 +3293,7 @@
   {
    "fecha": "2025-11-18",
    "personas_detectadas": 3,
-   "maquinaria_detectada": 0,
+   "maquinaria_detectada": 1,
    "casco": "No determinable",
    "chaleco": "No determinable",
    "estado_datos": "disponible",
@@ -3892,7 +3892,7 @@
   },
   {
    "fecha": "2025-11-30",
-   "personas_detectadas": 1,
+   "personas_detectadas": 0,
    "maquinaria_detectada": 0,
    "casco": "No determinable",
    "chaleco": "No determinable",
@@ -3936,7 +3936,7 @@
    "calidad_fotos": "baja",
    "n_fotos": 16,
    "n_fotos_usables": 0,
-   "n_fotos_con_personas": 1,
+   "n_fotos_con_personas": 0,
    "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
    "maquinaria_lista": [],
    "lluvia_observada": null,
@@ -4204,7 +4204,7 @@
   },
   {
    "fecha": "2025-12-06",
-   "personas_detectadas": 6,
+   "personas_detectadas": 7,
    "maquinaria_detectada": 0,
    "casco": "No determinable",
    "chaleco": "No determinable",
@@ -4280,11 +4280,11 @@
    "calidad_fotos": "baja",
    "n_fotos": 20,
    "n_fotos_usables": 1,
-   "n_fotos_con_personas": 11,
+   "n_fotos_con_personas": 10,
    "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
    "maquinaria_lista": [],
    "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 20 fotos; 1 sirvieron para analizar la obra. No sirvieron: 19 borrosas (lente empañado o sucio). Se vieron personas en 11 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "resumen_dia": "La cámara tomó 20 fotos; 1 sirvieron para analizar la obra. No sirvieron: 19 borrosas (lente empañado o sucio). Se vieron personas en 10 fotos. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": null,
    "alertas": [
     "camara-5"
@@ -4336,11 +4336,11 @@
    "calidad_fotos": "baja",
    "n_fotos": 26,
    "n_fotos_usables": 0,
-   "n_fotos_con_personas": 16,
+   "n_fotos_con_personas": 14,
    "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
    "maquinaria_lista": [],
    "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 26 fotos; 0 sirvieron para analizar la obra. No sirvieron: 26 borrosas (lente empañado o sucio). Se vieron personas en 16 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "resumen_dia": "La cámara tomó 26 fotos; 0 sirvieron para analizar la obra. No sirvieron: 26 borrosas (lente empañado o sucio). Se vieron personas en 14 fotos. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": null,
    "alertas": [
     "camara-5"
@@ -4404,7 +4404,7 @@
   },
   {
    "fecha": "2025-12-10",
-   "personas_detectadas": 12,
+   "personas_detectadas": 10,
    "maquinaria_detectada": 0,
    "casco": "No determinable",
    "chaleco": "No determinable",
@@ -4628,11 +4628,11 @@
   },
   {
    "fecha": "2025-12-14",
-   "personas_detectadas": 2,
+   "personas_detectadas": 1,
    "maquinaria_detectada": 0,
    "casco": "No determinable",
    "chaleco": "No determinable",
-   "estado_datos": "disponible",
+   "estado_datos": "sin datos",
    "fotografias": [
     {
      "hora": "16:51:12",
@@ -4643,16 +4643,16 @@
      "motivo_texto": ""
     }
    ],
-   "estado_dia": "con_actividad_baja_calidad",
-   "estado_dia_texto": "Con actividad (fotos de baja calidad)",
+   "estado_dia": "no_se_puede_saber",
+   "estado_dia_texto": "No se puede saber (las fotos no permiten ver la obra)",
    "calidad_fotos": "baja",
    "n_fotos": 17,
    "n_fotos_usables": 1,
-   "n_fotos_con_personas": 2,
+   "n_fotos_con_personas": 1,
    "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
    "maquinaria_lista": [],
    "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 17 fotos; 1 sirvieron para analizar la obra. No sirvieron: 16 borrosas (lente empañado o sucio). Se vieron personas en 2 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "resumen_dia": "La cámara tomó 17 fotos; 1 sirvieron para analizar la obra. No sirvieron: 16 borrosas (lente empañado o sucio). Las fotos no permiten saber si hubo trabajo.",
    "resumen_gemini_cgr": null,
    "alertas": [
     "camara-5"
@@ -4816,11 +4816,11 @@
    "calidad_fotos": "baja",
    "n_fotos": 13,
    "n_fotos_usables": 0,
-   "n_fotos_con_personas": 8,
+   "n_fotos_con_personas": 7,
    "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
    "maquinaria_lista": [],
    "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 13 fotos; 0 sirvieron para analizar la obra. No sirvieron: 13 borrosas (lente empañado o sucio). Se vieron personas en 8 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "resumen_dia": "La cámara tomó 13 fotos; 0 sirvieron para analizar la obra. No sirvieron: 13 borrosas (lente empañado o sucio). Se vieron personas en 7 fotos. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": null,
    "alertas": [
     "camara-5"
@@ -6512,7 +6512,7 @@
   },
   {
    "fecha": "2026-01-17",
-   "personas_detectadas": 1,
+   "personas_detectadas": 0,
    "maquinaria_detectada": 0,
    "casco": "No determinable",
    "chaleco": "No determinable",
@@ -6556,7 +6556,7 @@
    "calidad_fotos": "baja",
    "n_fotos": 21,
    "n_fotos_usables": 0,
-   "n_fotos_con_personas": 1,
+   "n_fotos_con_personas": 0,
    "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
    "maquinaria_lista": [],
    "lluvia_observada": null,
@@ -7138,7 +7138,7 @@
    "maquinaria_detectada": 0,
    "casco": "No determinable",
    "chaleco": "No determinable",
-   "estado_datos": "disponible",
+   "estado_datos": "sin datos",
    "fotografias": [
     {
      "hora": "08:18:37",
@@ -7173,16 +7173,16 @@
      "motivo_texto": "borrosa (lente empañado o sucio)"
     }
    ],
-   "estado_dia": "con_actividad_baja_calidad",
-   "estado_dia_texto": "Con actividad (fotos de baja calidad)",
+   "estado_dia": "no_se_puede_saber",
+   "estado_dia_texto": "No se puede saber (las fotos no permiten ver la obra)",
    "calidad_fotos": "baja",
    "n_fotos": 10,
    "n_fotos_usables": 0,
-   "n_fotos_con_personas": 2,
+   "n_fotos_con_personas": 1,
    "fuente_personas": "Gemini (CGR, obrapublica.info)",
    "maquinaria_lista": [],
    "lluvia_observada": false,
-   "resumen_dia": "La cámara tomó 10 fotos; 0 sirvieron para analizar la obra. No sirvieron: 9 borrosas (lente empañado o sucio), 1 sin contraste. Se vieron personas en 2 fotos (hasta 4 en una misma foto, según Gemini). Esto indica presencia de trabajo, no avance de la obra.",
+   "resumen_dia": "La cámara tomó 10 fotos; 0 sirvieron para analizar la obra. No sirvieron: 9 borrosas (lente empañado o sucio), 1 sin contraste. Las fotos no permiten saber si hubo trabajo.",
    "resumen_gemini_cgr": "El 28 de enero de 2026, las labores en la construcción de la Escuela de Limoncito se enfocaron principalmente en la etapa de estructura de concreto. Se reportaron trabajos de encofrado para elementos de concreto y la edificación de la estructura general del edificio, incluyendo actividades que podrían implicar niveles elevados.\n\nEl clima durante la jornada varió entre nublado y parcialmente nublado. No se registró el uso de maquinaria destacada. El nivel de actividad general pareció ser bajo a medio, ya que solo en dos momentos se observó personal trabajando, con un máximo de cuatro personas, y varias imágenes no mostraron actividad o personal.\n\nEn cuanto a la seguridad, para las actividades que sugerían trabajos en altura, no fue posible determinar si se estaban utilizando elementos como cascos, chalecos, arneses de seguridad o barandas de protección.",
    "alertas": [
     "camara-5"
@@ -9073,17 +9073,17 @@
      "motivo_texto": ""
     },
     {
-     "hora": "13:48:51",
-     "url": "https://drive.google.com/thumbnail?id=1mX-IHkSAQOjYJ0DOtpYKvgnwhDiz2GtP&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1mX-IHkSAQOjYJ0DOtpYKvgnwhDiz2GtP&sz=w1600",
+     "hora": "13:28:01",
+     "url": "https://drive.google.com/thumbnail?id=1WpaJGJQT2Cjh6R3jRWUWkWf4RIZYi6qu&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1WpaJGJQT2Cjh6R3jRWUWkWf4RIZYi6qu&sz=w1600",
      "usable": true,
      "invertida": false,
      "motivo_texto": ""
     },
     {
-     "hora": "15:33:08",
-     "url": "https://drive.google.com/thumbnail?id=1Rh3N6aWifkIyDOlij4A4LR5aRDW_9xuW&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1Rh3N6aWifkIyDOlij4A4LR5aRDW_9xuW&sz=w1600",
+     "hora": "15:12:17",
+     "url": "https://drive.google.com/thumbnail?id=1CADf6yfdlfef43EIp27v-Q10mmLFVSDg&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1CADf6yfdlfef43EIp27v-Q10mmLFVSDg&sz=w1600",
      "usable": true,
      "invertida": false,
      "motivo_texto": ""
@@ -9094,7 +9094,7 @@
    "calidad_fotos": "normal",
    "n_fotos": 29,
    "n_fotos_usables": 29,
-   "n_fotos_con_personas": 20,
+   "n_fotos_con_personas": 21,
    "fuente_personas": "Gemini (CGR, obrapublica.info)",
    "maquinaria_lista": [
     "Andamios metalicos",
@@ -9106,7 +9106,7 @@
     "Retroexcavadora"
    ],
    "lluvia_observada": false,
-   "resumen_dia": "La cámara tomó 29 fotos; 29 sirvieron para analizar la obra. Se vieron personas en 20 fotos (hasta 6 en una misma foto, según Gemini). Maquinaria visible: andamios metalicos, camion mixer, cargador frontal, elevador de obra, generador electrico. Esto indica presencia de trabajo, no avance de la obra.",
+   "resumen_dia": "La cámara tomó 29 fotos; 29 sirvieron para analizar la obra. Se vieron personas en 21 fotos (hasta 6 en una misma foto, según Gemini). Maquinaria visible: andamios metalicos, camion mixer, cargador frontal, elevador de obra, generador electrico. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": "El 3 de marzo de 2026, las actividades en la construcción de la Escuela de Limoncito mostraron un nivel de actividad medio a alto, centrándose principalmente en dos frentes clave. Se observó un progreso significativo en la construcción de la estructura de concreto del edificio y, de manera simultánea, el montaje de la estructura metálica de la cubierta.\n\nLa maquinaria destacada incluyó una grúa torre, fundamental para el izaje de materiales, y andamios metálicos. También se vieron en operación un camión mixer, un cargador frontal y una retroexcavadora. Las condiciones climáticas fueron generalmente favorables, con cielos despejados la mayor parte del día, y periodos parcialmente nublados.\n\nEn cuanto a la seguridad, hubo observaciones mixtas. El uso de cascos y chalecos fue inconsistente (\"Parcial\" o \"No\" en algunas instancias). Para los trabajos en altura, la presencia de arneses de seguridad fue mayormente \"No determinable\", y en una ocasión se notó la ausencia de barandas, lo cual es un punto crítico a revisar para la prevención de caídas."
   },
   {
@@ -9277,7 +9277,7 @@
    "calidad_fotos": "normal",
    "n_fotos": 29,
    "n_fotos_usables": 28,
-   "n_fotos_con_personas": 18,
+   "n_fotos_con_personas": 19,
    "fuente_personas": "Gemini (CGR, obrapublica.info)",
    "maquinaria_lista": [
     "Andamios metalicos",
@@ -9289,7 +9289,7 @@
     "Mezcladora de concreto"
    ],
    "lluvia_observada": false,
-   "resumen_dia": "La cámara tomó 29 fotos; 28 sirvieron para analizar la obra. Se vieron personas en 18 fotos (hasta 4 en una misma foto, según Gemini). Maquinaria visible: andamios metalicos, camion mixer, cargador frontal, elevador de obra, generador electrico. Esto indica presencia de trabajo, no avance de la obra.",
+   "resumen_dia": "La cámara tomó 29 fotos; 28 sirvieron para analizar la obra. Se vieron personas en 19 fotos (hasta 4 en una misma foto, según Gemini). Maquinaria visible: andamios metalicos, camion mixer, cargador frontal, elevador de obra, generador electrico. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": "El 6 de marzo de 2026, las actividades en la construcción de la Escuela de Limoncito se enfocaron principalmente en la construcción de la estructura de concreto y el montaje de la cubierta metálica del edificio educativo.\n\nA lo largo del día, se observó el uso constante de maquinaria destacada como la grúa torre y andamios metálicos, esenciales para los trabajos en altura, así como mezcladoras y camiones mixer para el manejo del concreto. Las condiciones climáticas variaron, comenzando nublado por la mañana y despejándose hacia la tarde.\n\nEn términos de seguridad, el uso de cascos y chalecos fue parcial o no determinable en varias imágenes. Es importante notar que se detectó la ausencia de barandas en una ocasión y su presencia parcial en otras, lo cual es crucial para la seguridad en trabajos de altura. El nivel de actividad general pareció medio a bajo, con un número limitado de personas visibles en las distintas tomas."
   },
   {
@@ -9423,17 +9423,17 @@
      "motivo_texto": ""
     },
     {
-     "hora": "13:15:51",
-     "url": "https://drive.google.com/thumbnail?id=1Q7XsghV2zAKNWx_h_oryKefDXLjf6Q8A&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1Q7XsghV2zAKNWx_h_oryKefDXLjf6Q8A&sz=w1600",
+     "hora": "12:34:14",
+     "url": "https://drive.google.com/thumbnail?id=10GlZh4LQf7S9LWqT9hz29Una9BwMXR_g&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=10GlZh4LQf7S9LWqT9hz29Una9BwMXR_g&sz=w1600",
      "usable": true,
      "invertida": false,
      "motivo_texto": ""
     },
     {
-     "hora": "14:39:08",
-     "url": "https://drive.google.com/thumbnail?id=1a4ULb5pk_kjuo1XIz0Hlx9fYE7XDdHKf&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1a4ULb5pk_kjuo1XIz0Hlx9fYE7XDdHKf&sz=w1600",
+     "hora": "14:18:19",
+     "url": "https://drive.google.com/thumbnail?id=1cAVj8w2cmm6wqsf3A8y4dJrCLlJ-tIta&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1cAVj8w2cmm6wqsf3A8y4dJrCLlJ-tIta&sz=w1600",
      "usable": true,
      "invertida": false,
      "motivo_texto": ""
@@ -9444,7 +9444,7 @@
    "calidad_fotos": "normal",
    "n_fotos": 28,
    "n_fotos_usables": 28,
-   "n_fotos_con_personas": 13,
+   "n_fotos_con_personas": 14,
    "fuente_personas": "Gemini (CGR, obrapublica.info)",
    "maquinaria_lista": [
     "Andamios metalicos",
@@ -9455,7 +9455,7 @@
     "Grua torre"
    ],
    "lluvia_observada": false,
-   "resumen_dia": "La cámara tomó 28 fotos; 28 sirvieron para analizar la obra. Se vieron personas en 13 fotos (hasta 3 en una misma foto, según Gemini). Maquinaria visible: andamios metalicos, camion mixer, elevador de obra, generador electrico, grua movil. Esto indica presencia de trabajo, no avance de la obra.",
+   "resumen_dia": "La cámara tomó 28 fotos; 28 sirvieron para analizar la obra. Se vieron personas en 14 fotos (hasta 3 en una misma foto, según Gemini). Maquinaria visible: andamios metalicos, camion mixer, elevador de obra, generador electrico, grua movil. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": "El 9 de marzo de 2026, las actividades en la construcción de la Escuela de Limoncito se centraron en el avance de la estructura de concreto del edificio de varias plantas y el montaje de su cubierta metálica. Se observó maquinaria clave como grúas torre, andamios metálicos y elevadores de obra, e incluso un camión mixer, lo que sugiere trabajos de vertido o preparación de concreto.\n\nLas condiciones climáticas fueron mayormente despejadas, con algunos momentos parcialmente nublados. Respecto a la seguridad, se notó un uso parcial o no determinable de cascos y chalecos. Más preocupante, la ausencia de barandas de seguridad fue explícitamente mencionada en dos ocasiones para zonas de trabajo en altura, y el uso de arneses no pudo ser determinado. A pesar de estas observaciones, el nivel de actividad general fue de medio a alto, con el personal enfocado en las tareas estructurales y de techado de la escuela."
   },
   {
@@ -9706,7 +9706,7 @@
   },
   {
    "fecha": "2026-03-14",
-   "personas_detectadas": 4,
+   "personas_detectadas": 3,
    "maquinaria_detectada": 2,
    "casco": "No determinable",
    "chaleco": "No determinable",
@@ -9750,17 +9750,17 @@
    "calidad_fotos": "normal",
    "n_fotos": 29,
    "n_fotos_usables": 29,
-   "n_fotos_con_personas": 10,
+   "n_fotos_con_personas": 11,
    "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
    "maquinaria_lista": [],
    "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 29 fotos; 29 sirvieron para analizar la obra. Se vieron personas en 10 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "resumen_dia": "La cámara tomó 29 fotos; 29 sirvieron para analizar la obra. Se vieron personas en 11 fotos. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": null
   },
   {
    "fecha": "2026-03-15",
-   "personas_detectadas": 1,
-   "maquinaria_detectada": 1,
+   "personas_detectadas": 2,
+   "maquinaria_detectada": 2,
    "casco": "No determinable",
    "chaleco": "No determinable",
    "estado_datos": "disponible",
@@ -10075,9 +10075,9 @@
      "motivo_texto": ""
     },
     {
-     "hora": "13:24:29",
-     "url": "https://drive.google.com/thumbnail?id=1_AyFH1XXpZIfXV8WuhQ_EvP5e4fBrYtZ&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1_AyFH1XXpZIfXV8WuhQ_EvP5e4fBrYtZ&sz=w1600",
+     "hora": "13:03:37",
+     "url": "https://drive.google.com/thumbnail?id=1vzruZ1JDemcofTWrv_Dzu1qwpiKVWHAg&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1vzruZ1JDemcofTWrv_Dzu1qwpiKVWHAg&sz=w1600",
      "usable": true,
      "invertida": false,
      "motivo_texto": ""
@@ -10105,7 +10105,7 @@
   },
   {
    "fecha": "2026-03-21",
-   "personas_detectadas": 9,
+   "personas_detectadas": 7,
    "maquinaria_detectada": 3,
    "casco": "No determinable",
    "chaleco": "No determinable",
@@ -10149,11 +10149,11 @@
    "calidad_fotos": "normal",
    "n_fotos": 29,
    "n_fotos_usables": 28,
-   "n_fotos_con_personas": 10,
+   "n_fotos_con_personas": 9,
    "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
    "maquinaria_lista": [],
    "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 29 fotos; 28 sirvieron para analizar la obra. Se vieron personas en 10 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "resumen_dia": "La cámara tomó 29 fotos; 28 sirvieron para analizar la obra. Se vieron personas en 9 fotos. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": null
   },
   {
@@ -10202,11 +10202,11 @@
    "calidad_fotos": "normal",
    "n_fotos": 29,
    "n_fotos_usables": 29,
-   "n_fotos_con_personas": 7,
+   "n_fotos_con_personas": 6,
    "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
    "maquinaria_lista": [],
    "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 29 fotos; 29 sirvieron para analizar la obra. Se vieron personas en 7 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "resumen_dia": "La cámara tomó 29 fotos; 29 sirvieron para analizar la obra. Se vieron personas en 6 fotos. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": null
   },
   {
@@ -10218,33 +10218,33 @@
    "estado_datos": "disponible",
    "fotografias": [
     {
-     "hora": "07:14:15",
-     "url": "https://drive.google.com/thumbnail?id=1drHOl8X82cnUFk-DSImqU08aEzWwECQk&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1drHOl8X82cnUFk-DSImqU08aEzWwECQk&sz=w1600",
+     "hora": "08:15:36",
+     "url": "https://drive.google.com/thumbnail?id=1CQ7IFBXQk8RNnsLSCF6Wi6mF14VivkP1&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1CQ7IFBXQk8RNnsLSCF6Wi6mF14VivkP1&sz=w1600",
      "usable": true,
      "invertida": false,
      "motivo_texto": ""
     },
     {
-     "hora": "09:59:44",
-     "url": "https://drive.google.com/thumbnail?id=1EmM4RqYO_eC_j6aEcdxvAo76Kcngz0jw&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1EmM4RqYO_eC_j6aEcdxvAo76Kcngz0jw&sz=w1600",
+     "hora": "10:41:26",
+     "url": "https://drive.google.com/thumbnail?id=1s5XBsKL_HcZVjzp0igigw0FVBSdkz5hw&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1s5XBsKL_HcZVjzp0igigw0FVBSdkz5hw&sz=w1600",
      "usable": true,
      "invertida": false,
      "motivo_texto": ""
     },
     {
-     "hora": "11:43:55",
-     "url": "https://drive.google.com/thumbnail?id=1Sj4vfUk3UYYSizCKqeErNO97BVJc0_vW&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1Sj4vfUk3UYYSizCKqeErNO97BVJc0_vW&sz=w1600",
+     "hora": "12:04:47",
+     "url": "https://drive.google.com/thumbnail?id=1o_zycVw6jZMmMFgWu26krJ50rTmDKGe_&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1o_zycVw6jZMmMFgWu26krJ50rTmDKGe_&sz=w1600",
      "usable": true,
      "invertida": false,
      "motivo_texto": ""
     },
     {
-     "hora": "13:28:11",
-     "url": "https://drive.google.com/thumbnail?id=12iVjdBU98rpQcC9dMCrPwHRuKCn7LBtF&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=12iVjdBU98rpQcC9dMCrPwHRuKCn7LBtF&sz=w1600",
+     "hora": "15:12:18",
+     "url": "https://drive.google.com/thumbnail?id=139boXUah4KIgL8vKO9q9Vr6LRo9aG5fk&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=139boXUah4KIgL8vKO9q9Vr6LRo9aG5fk&sz=w1600",
      "usable": true,
      "invertida": false,
      "motivo_texto": ""
@@ -10255,7 +10255,7 @@
    "calidad_fotos": "normal",
    "n_fotos": 27,
    "n_fotos_usables": 27,
-   "n_fotos_con_personas": 14,
+   "n_fotos_con_personas": 13,
    "fuente_personas": "Gemini (CGR, obrapublica.info)",
    "maquinaria_lista": [
     "Andamios metalicos",
@@ -10265,7 +10265,7 @@
     "Grua torre"
    ],
    "lluvia_observada": false,
-   "resumen_dia": "La cámara tomó 27 fotos; 27 sirvieron para analizar la obra. Se vieron personas en 14 fotos (hasta 6 en una misma foto, según Gemini). Maquinaria visible: andamios metalicos, bomba de concreto, generador electrico, grua movil, grua torre. Esto indica presencia de trabajo, no avance de la obra.",
+   "resumen_dia": "La cámara tomó 27 fotos; 27 sirvieron para analizar la obra. Se vieron personas en 13 fotos (hasta 6 en una misma foto, según Gemini). Maquinaria visible: andamios metalicos, bomba de concreto, generador electrico, grua movil, grua torre. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": "El 23 de marzo de 2026, la construcción de la Escuela de Limoncito mostró un avance variado. Las actividades principales se centraron en la edificación de la estructura, incluyendo trabajos en elementos de concreto y el montaje de la cubierta metálica. También se observaron labores de mampostería, acopio de materiales y levantamientos topográficos.\n\nLa maquinaria destacada en el sitio fue la grúa torre, que estuvo activa durante todo el día, junto con andamios metálicos y una bomba de concreto. El clima se mantuvo predominantemente despejado, con algunas nubes parciales hacia el final del día.\n\nEn cuanto a la seguridad, se notó el uso parcial de cascos y chalecos por parte de los trabajadores. Las barandas de seguridad para trabajos en altura estaban presentes solo parcialmente, y el uso de arneses no pudo ser determinado claramente. El sitio mantuvo un nivel de actividad medio, con diversas tareas progresando simultáneamente."
   },
   {
@@ -10526,17 +10526,17 @@
      "motivo_texto": ""
     },
     {
-     "hora": "12:04:33",
-     "url": "https://drive.google.com/thumbnail?id=1nC8KqnQ2n7dqOxRnJxaYXEX4IMTmcUwV&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1nC8KqnQ2n7dqOxRnJxaYXEX4IMTmcUwV&sz=w1600",
+     "hora": "11:22:53",
+     "url": "https://drive.google.com/thumbnail?id=1g9yigvmXGIk85U_1mzbCv93_DkrENgfo&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1g9yigvmXGIk85U_1mzbCv93_DkrENgfo&sz=w1600",
      "usable": true,
      "invertida": false,
      "motivo_texto": ""
     },
     {
-     "hora": "13:48:44",
-     "url": "https://drive.google.com/thumbnail?id=15NchMBcuAGPJW3b4k_AMnS2s3Rreuwfd&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=15NchMBcuAGPJW3b4k_AMnS2s3Rreuwfd&sz=w1600",
+     "hora": "13:27:54",
+     "url": "https://drive.google.com/thumbnail?id=1EnPeroF4x9PqvJp5OWmP38kb-9EKX1fn&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1EnPeroF4x9PqvJp5OWmP38kb-9EKX1fn&sz=w1600",
      "usable": true,
      "invertida": false,
      "motivo_texto": ""
@@ -10547,16 +10547,16 @@
    "calidad_fotos": "normal",
    "n_fotos": 29,
    "n_fotos_usables": 29,
-   "n_fotos_con_personas": 16,
+   "n_fotos_con_personas": 17,
    "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
    "maquinaria_lista": [],
    "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 29 fotos; 29 sirvieron para analizar la obra. Se vieron personas en 16 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "resumen_dia": "La cámara tomó 29 fotos; 29 sirvieron para analizar la obra. Se vieron personas en 17 fotos. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": null
   },
   {
    "fecha": "2026-03-29",
-   "personas_detectadas": 5,
+   "personas_detectadas": 4,
    "maquinaria_detectada": 3,
    "casco": "No determinable",
    "chaleco": "No determinable",
@@ -10579,17 +10579,17 @@
      "motivo_texto": ""
     },
     {
-     "hora": "10:08:07",
-     "url": "https://drive.google.com/thumbnail?id=1Kmf3xuK7Y3u_WtAOVefyOfwUNvLXwe6n&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1Kmf3xuK7Y3u_WtAOVefyOfwUNvLXwe6n&sz=w1600",
+     "hora": "10:28:56",
+     "url": "https://drive.google.com/thumbnail?id=1ect2dGTdXpvePbWziYFVwIqssX33D35F&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1ect2dGTdXpvePbWziYFVwIqssX33D35F&sz=w1600",
      "usable": true,
      "invertida": false,
      "motivo_texto": ""
     },
     {
-     "hora": "12:13:04",
-     "url": "https://drive.google.com/thumbnail?id=1ONb6IDEL2yMcBZ55HuceGmjk2XbOReBl&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1ONb6IDEL2yMcBZ55HuceGmjk2XbOReBl&sz=w1600",
+     "hora": "13:36:24",
+     "url": "https://drive.google.com/thumbnail?id=1KWiJObGS7B0Iz_ZHd35x97rrbzX_gvE-&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1KWiJObGS7B0Iz_ZHd35x97rrbzX_gvE-&sz=w1600",
      "usable": true,
      "invertida": false,
      "motivo_texto": ""
@@ -10600,11 +10600,11 @@
    "calidad_fotos": "normal",
    "n_fotos": 29,
    "n_fotos_usables": 29,
-   "n_fotos_con_personas": 14,
+   "n_fotos_con_personas": 13,
    "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
    "maquinaria_lista": [],
    "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 29 fotos; 29 sirvieron para analizar la obra. Se vieron personas en 14 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "resumen_dia": "La cámara tomó 29 fotos; 29 sirvieron para analizar la obra. Se vieron personas en 13 fotos. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": null
   },
   {
@@ -10843,6 +10843,14 @@
      "usable": true,
      "invertida": false,
      "motivo_texto": ""
+    },
+    {
+     "hora": "14:59:03",
+     "url": "https://drive.google.com/thumbnail?id=1i3oNy6I8jn_qN9kQFx8J0fj1r_cGbgEW&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1i3oNy6I8jn_qN9kQFx8J0fj1r_cGbgEW&sz=w1600",
+     "usable": true,
+     "invertida": false,
+     "motivo_texto": ""
     }
    ],
    "estado_dia": "con_actividad",
@@ -10850,7 +10858,7 @@
    "calidad_fotos": "normal",
    "n_fotos": 29,
    "n_fotos_usables": 29,
-   "n_fotos_con_personas": 2,
+   "n_fotos_con_personas": 3,
    "fuente_personas": "Gemini (CGR, obrapublica.info)",
    "maquinaria_lista": [
     "Andamios metalicos",
@@ -10861,7 +10869,7 @@
     "Retroexcavadora"
    ],
    "lluvia_observada": false,
-   "resumen_dia": "La cámara tomó 29 fotos; 29 sirvieron para analizar la obra. Se vieron personas en 2 fotos (hasta 2 en una misma foto, según Gemini). Maquinaria visible: andamios metalicos, camion mixer, cargador frontal, elevador de obra, grua torre. Esto indica presencia de trabajo, no avance de la obra.",
+   "resumen_dia": "La cámara tomó 29 fotos; 29 sirvieron para analizar la obra. Se vieron personas en 3 fotos (hasta 2 en una misma foto, según Gemini). Maquinaria visible: andamios metalicos, camion mixer, cargador frontal, elevador de obra, grua torre. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": "El 3 de abril de 2026, la construcción de la Escuela de Limoncito mostró un día de actividad significativa. El enfoque principal fue el avance de la estructura de concreto y el montaje de la cubierta metálica del edificio, incluyendo posibles vaciados de concreto y manejo de materiales.\n\nLa maquinaria destacada que se observó operando durante el día incluyó camiones mixer, grúas torre y andamios metálicos, complementados ocasionalmente por retroexcavadoras, cargadores frontales y elevadores de obra.\n\nLas condiciones climáticas variaron desde parcialmente nublado hasta nublado y despejado, permitiendo el desarrollo de las tareas sin interrupciones mayores.\n\nEn cuanto a la seguridad, se notó la presencia de andamios para trabajos en altura. Sin embargo, en varias observaciones, las barandas de seguridad se reportaron como parciales o ausentes, y el uso de arneses de altura no fue determinable o no aplicaba según las imágenes, lo cual es un punto a considerar para la protección de los trabajadores.\n\nA pesar de que pocas personas fueron visibles en las imágenes, la constante presencia y operación de maquinaria pesada sugiere un nivel de actividad medio a alto en el sitio."
   },
   {
@@ -11059,25 +11067,25 @@
      "motivo_texto": ""
     },
     {
-     "hora": "08:24:14",
-     "url": "https://drive.google.com/thumbnail?id=1DxuHUsA8KfGy_RdebgrnkIGivz-w1xQ4&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1DxuHUsA8KfGy_RdebgrnkIGivz-w1xQ4&sz=w1600",
+     "hora": "09:05:34",
+     "url": "https://drive.google.com/thumbnail?id=1MZPxw7xfGb_1pRzuvF1JMiinJqeGOD4r&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1MZPxw7xfGb_1pRzuvF1JMiinJqeGOD4r&sz=w1600",
      "usable": true,
      "invertida": false,
      "motivo_texto": ""
     },
     {
-     "hora": "10:28:55",
-     "url": "https://drive.google.com/thumbnail?id=1rVOlV9RmCk3aXOMlqm0c64lB_BjxquSA&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1rVOlV9RmCk3aXOMlqm0c64lB_BjxquSA&sz=w1600",
+     "hora": "11:10:39",
+     "url": "https://drive.google.com/thumbnail?id=15fwVYy7P_zE6VXIuj42VxIZxkvTCNEKT&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=15fwVYy7P_zE6VXIuj42VxIZxkvTCNEKT&sz=w1600",
      "usable": true,
      "invertida": false,
      "motivo_texto": ""
     },
     {
-     "hora": "14:39:07",
-     "url": "https://drive.google.com/thumbnail?id=1AVk3HFKM_JKpPOukoyCSXSmTH0HqN6b-&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1AVk3HFKM_JKpPOukoyCSXSmTH0HqN6b-&sz=w1600",
+     "hora": "14:59:58",
+     "url": "https://drive.google.com/thumbnail?id=1ehFgXCv5JSi4VbVJBWOhSPkZqazxAH76&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1ehFgXCv5JSi4VbVJBWOhSPkZqazxAH76&sz=w1600",
      "usable": true,
      "invertida": false,
      "motivo_texto": ""
@@ -11088,7 +11096,7 @@
    "calidad_fotos": "normal",
    "n_fotos": 29,
    "n_fotos_usables": 29,
-   "n_fotos_con_personas": 18,
+   "n_fotos_con_personas": 17,
    "fuente_personas": "Gemini (CGR, obrapublica.info)",
    "maquinaria_lista": [
     "Andamios metalicos",
@@ -11098,7 +11106,7 @@
     "Montacargas"
    ],
    "lluvia_observada": false,
-   "resumen_dia": "La cámara tomó 29 fotos; 29 sirvieron para analizar la obra. Se vieron personas en 18 fotos (hasta 8 en una misma foto, según Gemini). Maquinaria visible: andamios metalicos, camion de volteo, generador electrico, grua torre, montacargas. Esto indica presencia de trabajo, no avance de la obra.",
+   "resumen_dia": "La cámara tomó 29 fotos; 29 sirvieron para analizar la obra. Se vieron personas en 17 fotos (hasta 8 en una misma foto, según Gemini). Maquinaria visible: andamios metalicos, camion de volteo, generador electrico, grua torre, montacargas. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": "El 8 de abril de 2026, las actividades en la construcción de la Escuela de Limoncito se enfocaron en el avance de la estructura principal de concreto y el montaje de la cubierta metálica. También se observaron trabajos de mampostería en los niveles inferiores y un constante movimiento de materiales.\n\nLa maquinaria destacada en operación incluyó la grúa torre para elevación, montacargas para transporte y andamios metálicos. El clima del día fue variable, alternando entre parcialmente nublado, despejado y nublado, lo cual fue generalmente favorable para las labores.\n\nEl nivel de actividad fue medio a alto, con un número significativo de personal trabajando en diferentes frentes durante la mañana. En cuanto a seguridad, se notó una inconsistencia en el uso de cascos y chalecos. Adicionalmente, preocupa la seguridad en trabajos en altura, ya que el uso de arneses no fue determinable y las barandas de seguridad fueron parciales o inexistentes en varias zonas."
   },
   {
@@ -11194,9 +11202,9 @@
      "motivo_texto": ""
     },
     {
-     "hora": "14:35:59",
-     "url": "https://drive.google.com/thumbnail?id=12o3jKg39X4AjrsN_95MMIbuGIsi_tILq&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=12o3jKg39X4AjrsN_95MMIbuGIsi_tILq&sz=w1600",
+     "hora": "14:56:48",
+     "url": "https://drive.google.com/thumbnail?id=1efxLiR7QKpmfqaw9fUVUbZk9dRlOShIX&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1efxLiR7QKpmfqaw9fUVUbZk9dRlOShIX&sz=w1600",
      "usable": true,
      "invertida": false,
      "motivo_texto": ""
@@ -11207,7 +11215,7 @@
    "calidad_fotos": "normal",
    "n_fotos": 29,
    "n_fotos_usables": 28,
-   "n_fotos_con_personas": 21,
+   "n_fotos_con_personas": 20,
    "fuente_personas": "Gemini (CGR, obrapublica.info)",
    "maquinaria_lista": [
     "Andamios metalicos",
@@ -11216,13 +11224,13 @@
     "Grua torre"
    ],
    "lluvia_observada": false,
-   "resumen_dia": "La cámara tomó 29 fotos; 28 sirvieron para analizar la obra. Se vieron personas en 21 fotos (hasta 4 en una misma foto, según Gemini). Maquinaria visible: andamios metalicos, elevador de obra, grua movil, grua torre. Esto indica presencia de trabajo, no avance de la obra.",
+   "resumen_dia": "La cámara tomó 29 fotos; 28 sirvieron para analizar la obra. Se vieron personas en 20 fotos (hasta 4 en una misma foto, según Gemini). Maquinaria visible: andamios metalicos, elevador de obra, grua movil, grua torre. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": "El 10 de abril de 2026, la construcción de la Escuela de Limoncito en Cieneguita mostró un nivel de actividad medio a alto. Los trabajos se centraron en la construcción de la estructura principal de concreto, el levantamiento de mampostería y el montaje de la cubierta metálica.\n\nMaquinaria destacada como grúas torre, grúas móviles y elevadores de obra estuvo en uso, apoyando las tareas en altura y el movimiento de materiales. El clima fue variado, comenzando parcialmente nublado o nublado por la mañana y despejándose hacia la tarde.\n\nEn cuanto a la seguridad, se observó un uso parcial o inconsistente de cascos y chalecos. Una preocupación notable fue la escasa presencia de barandas de seguridad, especialmente considerando los trabajos en la estructura y cubierta. El uso de arneses de altura, crucial para estas tareas, no siempre fue determinable."
   },
   {
    "fecha": "2026-04-11",
    "personas_detectadas": 5,
-   "maquinaria_detectada": 2,
+   "maquinaria_detectada": 1,
    "casco": "No determinable",
    "chaleco": "No determinable",
    "estado_datos": "disponible",
@@ -11305,9 +11313,9 @@
      "motivo_texto": ""
     },
     {
-     "hora": "11:03:05",
-     "url": "https://drive.google.com/thumbnail?id=1qUos0XogDmLJVqAMJ5VERJdFkxN23w2u&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1qUos0XogDmLJVqAMJ5VERJdFkxN23w2u&sz=w1600",
+     "hora": "11:23:54",
+     "url": "https://drive.google.com/thumbnail?id=1RhYMfpBhNWueSegJSuFAivHkbzyj6yF2&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1RhYMfpBhNWueSegJSuFAivHkbzyj6yF2&sz=w1600",
      "usable": true,
      "invertida": false,
      "motivo_texto": ""
@@ -11318,11 +11326,11 @@
    "calidad_fotos": "normal",
    "n_fotos": 29,
    "n_fotos_usables": 29,
-   "n_fotos_con_personas": 14,
+   "n_fotos_con_personas": 13,
    "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
    "maquinaria_lista": [],
    "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 29 fotos; 29 sirvieron para analizar la obra. Se vieron personas en 14 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "resumen_dia": "La cámara tomó 29 fotos; 29 sirvieron para analizar la obra. Se vieron personas en 13 fotos. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": null
   },
   {
@@ -11534,9 +11542,9 @@
      "motivo_texto": ""
     },
     {
-     "hora": "14:01:08",
-     "url": "https://drive.google.com/thumbnail?id=1ABuhVmogLqjWkd2DmMu-ZTkpbPdid2GI&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1ABuhVmogLqjWkd2DmMu-ZTkpbPdid2GI&sz=w1600",
+     "hora": "14:42:49",
+     "url": "https://drive.google.com/thumbnail?id=1bHdyh8o9QcbD9pRep4JAsOcktbcWbvzK&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1bHdyh8o9QcbD9pRep4JAsOcktbcWbvzK&sz=w1600",
      "usable": true,
      "invertida": false,
      "motivo_texto": ""
@@ -11547,7 +11555,7 @@
    "calidad_fotos": "normal",
    "n_fotos": 29,
    "n_fotos_usables": 29,
-   "n_fotos_con_personas": 25,
+   "n_fotos_con_personas": 24,
    "fuente_personas": "Gemini (CGR, obrapublica.info)",
    "maquinaria_lista": [
     "Andamios metalicos",
@@ -11556,7 +11564,7 @@
     "Grua movil"
    ],
    "lluvia_observada": false,
-   "resumen_dia": "La cámara tomó 29 fotos; 29 sirvieron para analizar la obra. Se vieron personas en 25 fotos (hasta 7 en una misma foto, según Gemini). Maquinaria visible: andamios metalicos, cargador frontal, elevador de obra, grua movil. Esto indica presencia de trabajo, no avance de la obra.",
+   "resumen_dia": "La cámara tomó 29 fotos; 29 sirvieron para analizar la obra. Se vieron personas en 24 fotos (hasta 7 en una misma foto, según Gemini). Maquinaria visible: andamios metalicos, cargador frontal, elevador de obra, grua movil. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": "El 16 de abril de 2026, la construcción de la Escuela de Limoncito en Cieneguita mostró un nivel de actividad medio a alto. Las labores principales se enfocaron en el montaje de la estructura metálica de la cubierta y la construcción de la estructura principal de concreto del edificio de varios niveles. También se realizaron trabajos de mampostería y movimiento de materiales en el patio central.\n\nLa grúa móvil fue la maquinaria más destacada, utilizada constantemente para las tareas de montaje, acompañada de andamios metálicos, un elevador de obra y un cargador frontal.\n\nEl clima del día fue variable, comenzando despejado, pasando a nublado al mediodía y volviendo a despejarse por la tarde.\n\nEn cuanto a la seguridad, se observó el uso de cascos y chalecos, aunque en algunas ocasiones de forma parcial. Es crucial señalar que en trabajos en altura no se determinó el uso de arneses y se notó la ausencia de barandas, lo que representa un área de mejora en las medidas de seguridad."
   },
   {
@@ -11673,7 +11681,7 @@
   },
   {
    "fecha": "2026-04-19",
-   "personas_detectadas": 5,
+   "personas_detectadas": 6,
    "maquinaria_detectada": 1,
    "casco": "No determinable",
    "chaleco": "No determinable",
@@ -11794,25 +11802,25 @@
      "motivo_texto": ""
     },
     {
-     "hora": "09:44:04",
-     "url": "https://drive.google.com/thumbnail?id=1LPU1Ug99wKqENMEAnEj3bXp-0cBGrjvx&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1LPU1Ug99wKqENMEAnEj3bXp-0cBGrjvx&sz=w1600",
+     "hora": "09:23:12",
+     "url": "https://drive.google.com/thumbnail?id=1dEOIZPmOpn_3IKjnFFaD0RUQGFesP47s&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1dEOIZPmOpn_3IKjnFFaD0RUQGFesP47s&sz=w1600",
      "usable": true,
      "invertida": true,
      "motivo_texto": ""
     },
     {
-     "hora": "11:07:22",
-     "url": "https://drive.google.com/thumbnail?id=1fuDgVOA4F3U69pD1l3mu6t04pw8Gx9bj&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1fuDgVOA4F3U69pD1l3mu6t04pw8Gx9bj&sz=w1600",
+     "hora": "10:46:33",
+     "url": "https://drive.google.com/thumbnail?id=1pKf5Fp61VERo9qCJiIr7kNbTERETGckp&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1pKf5Fp61VERo9qCJiIr7kNbTERETGckp&sz=w1600",
      "usable": true,
      "invertida": true,
      "motivo_texto": ""
     },
     {
-     "hora": "13:33:03",
-     "url": "https://drive.google.com/thumbnail?id=1lTpMamq62DAe4SrTPaXvP3TsaBqW2KCD&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1lTpMamq62DAe4SrTPaXvP3TsaBqW2KCD&sz=w1600",
+     "hora": "13:12:12",
+     "url": "https://drive.google.com/thumbnail?id=1RCF8Fv1LKjRVTDM4SPhEju5WXt1NKl61&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1RCF8Fv1LKjRVTDM4SPhEju5WXt1NKl61&sz=w1600",
      "usable": true,
      "invertida": true,
      "motivo_texto": ""
@@ -11823,11 +11831,11 @@
    "calidad_fotos": "normal",
    "n_fotos": 27,
    "n_fotos_usables": 26,
-   "n_fotos_con_personas": 17,
+   "n_fotos_con_personas": 18,
    "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
    "maquinaria_lista": [],
    "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 27 fotos; 26 sirvieron para analizar la obra. Se vieron personas en 17 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "resumen_dia": "La cámara tomó 27 fotos; 26 sirvieron para analizar la obra. Se vieron personas en 18 fotos. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": null
   },
   {
@@ -11939,7 +11947,7 @@
   {
    "fecha": "2026-04-24",
    "personas_detectadas": 5,
-   "maquinaria_detectada": 3,
+   "maquinaria_detectada": 2,
    "casco": "No determinable",
    "chaleco": "No determinable",
    "estado_datos": "disponible",
@@ -12044,7 +12052,7 @@
   },
   {
    "fecha": "2026-04-26",
-   "personas_detectadas": 3,
+   "personas_detectadas": 2,
    "maquinaria_detectada": 1,
    "casco": "No determinable",
    "chaleco": "No determinable",
@@ -12150,7 +12158,7 @@
   },
   {
    "fecha": "2026-04-28",
-   "personas_detectadas": 9,
+   "personas_detectadas": 8,
    "maquinaria_detectada": 2,
    "casco": "No determinable",
    "chaleco": "No determinable",
@@ -12279,17 +12287,17 @@
      "motivo_texto": ""
     },
     {
-     "hora": "10:50:18",
-     "url": "https://drive.google.com/thumbnail?id=1bkiCHHRFYhgJgQQFgDT-HwOZWZ5VsM3U&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1bkiCHHRFYhgJgQQFgDT-HwOZWZ5VsM3U&sz=w1600",
+     "hora": "11:11:07",
+     "url": "https://drive.google.com/thumbnail?id=1XN2GlfI1FnpNDgdCmRpjfwfAdsybI9sk&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1XN2GlfI1FnpNDgdCmRpjfwfAdsybI9sk&sz=w1600",
      "usable": true,
      "invertida": true,
      "motivo_texto": ""
     },
     {
-     "hora": "12:34:22",
-     "url": "https://drive.google.com/thumbnail?id=18OAUjp-NnnVFGvDoCxsE04xWd59o4ggK&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=18OAUjp-NnnVFGvDoCxsE04xWd59o4ggK&sz=w1600",
+     "hora": "13:16:03",
+     "url": "https://drive.google.com/thumbnail?id=1to7hZ_EszBJJwSRYlkYMzZFPFexD0XYB&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1to7hZ_EszBJJwSRYlkYMzZFPFexD0XYB&sz=w1600",
      "usable": true,
      "invertida": true,
      "motivo_texto": ""
@@ -12300,11 +12308,11 @@
    "calidad_fotos": "normal",
    "n_fotos": 29,
    "n_fotos_usables": 29,
-   "n_fotos_con_personas": 19,
+   "n_fotos_con_personas": 18,
    "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
    "maquinaria_lista": [],
    "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 29 fotos; 29 sirvieron para analizar la obra. Se vieron personas en 19 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "resumen_dia": "La cámara tomó 29 fotos; 29 sirvieron para analizar la obra. Se vieron personas en 18 fotos. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": null
   },
   {
@@ -12385,17 +12393,17 @@
      "motivo_texto": ""
     },
     {
-     "hora": "12:29:05",
-     "url": "https://drive.google.com/thumbnail?id=1oRkeWktkF1qihd7zmhqbmLTY5-iwrX2F&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1oRkeWktkF1qihd7zmhqbmLTY5-iwrX2F&sz=w1600",
+     "hora": "10:45:00",
+     "url": "https://drive.google.com/thumbnail?id=1fFc5eNZpED4H2zEpAMu3KFd3POAZHKr1&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1fFc5eNZpED4H2zEpAMu3KFd3POAZHKr1&sz=w1600",
      "usable": true,
      "invertida": true,
      "motivo_texto": ""
     },
     {
-     "hora": "15:15:26",
-     "url": "https://drive.google.com/thumbnail?id=1Z7LIkvbmUIGR3nqb21t8uYs8VJeFihty&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1Z7LIkvbmUIGR3nqb21t8uYs8VJeFihty&sz=w1600",
+     "hora": "13:52:16",
+     "url": "https://drive.google.com/thumbnail?id=1ri1S89v5CeN3JEY6M8a8fUEhRsAV3Q_F&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1ri1S89v5CeN3JEY6M8a8fUEhRsAV3Q_F&sz=w1600",
      "usable": true,
      "invertida": true,
      "motivo_texto": ""
@@ -12406,11 +12414,11 @@
    "calidad_fotos": "normal",
    "n_fotos": 30,
    "n_fotos_usables": 29,
-   "n_fotos_con_personas": 13,
+   "n_fotos_con_personas": 14,
    "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
    "maquinaria_lista": [],
    "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 30 fotos; 29 sirvieron para analizar la obra. Se vieron personas en 13 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "resumen_dia": "La cámara tomó 30 fotos; 29 sirvieron para analizar la obra. Se vieron personas en 14 fotos. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": null
   },
   {
@@ -12459,16 +12467,16 @@
    "calidad_fotos": "normal",
    "n_fotos": 28,
    "n_fotos_usables": 28,
-   "n_fotos_con_personas": 10,
+   "n_fotos_con_personas": 9,
    "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
    "maquinaria_lista": [],
    "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 28 fotos; 28 sirvieron para analizar la obra. Se vieron personas en 10 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "resumen_dia": "La cámara tomó 28 fotos; 28 sirvieron para analizar la obra. Se vieron personas en 9 fotos. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": null
   },
   {
    "fecha": "2026-05-04",
-   "personas_detectadas": 5,
+   "personas_detectadas": 4,
    "maquinaria_detectada": 0,
    "casco": "No determinable",
    "chaleco": "No determinable",
@@ -12536,25 +12544,25 @@
      "motivo_texto": ""
     },
     {
-     "hora": "09:42:56",
-     "url": "https://drive.google.com/thumbnail?id=1c2bs2b_2v3yu_XS1tym5yCmjnKkwoTzF&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1c2bs2b_2v3yu_XS1tym5yCmjnKkwoTzF&sz=w1600",
+     "hora": "10:24:36",
+     "url": "https://drive.google.com/thumbnail?id=1wMhjA0PLAQ8VtIIHP5Z4tx9KqhyGaNBo&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1wMhjA0PLAQ8VtIIHP5Z4tx9KqhyGaNBo&sz=w1600",
      "usable": true,
      "invertida": true,
      "motivo_texto": ""
     },
     {
-     "hora": "11:06:17",
-     "url": "https://drive.google.com/thumbnail?id=11_P9aWJVMX2XFCxHOniNNOshLmAksRIc&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=11_P9aWJVMX2XFCxHOniNNOshLmAksRIc&sz=w1600",
+     "hora": "11:47:57",
+     "url": "https://drive.google.com/thumbnail?id=11kY5hbjs91uTMeGcK3ks6i5ZW1pQYjsx&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=11kY5hbjs91uTMeGcK3ks6i5ZW1pQYjsx&sz=w1600",
      "usable": true,
      "invertida": true,
      "motivo_texto": ""
     },
     {
-     "hora": "12:50:25",
-     "url": "https://drive.google.com/thumbnail?id=1DU34yrbFEr3L_qPIgeJ3pI0X_tsun1Td&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1DU34yrbFEr3L_qPIgeJ3pI0X_tsun1Td&sz=w1600",
+     "hora": "13:11:14",
+     "url": "https://drive.google.com/thumbnail?id=1_o8IRJ3Jgx9dJhzU3lD5NB_-eZ6lfp1i&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1_o8IRJ3Jgx9dJhzU3lD5NB_-eZ6lfp1i&sz=w1600",
      "usable": true,
      "invertida": true,
      "motivo_texto": ""
@@ -12565,11 +12573,11 @@
    "calidad_fotos": "normal",
    "n_fotos": 28,
    "n_fotos_usables": 27,
-   "n_fotos_con_personas": 14,
+   "n_fotos_con_personas": 13,
    "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
    "maquinaria_lista": [],
    "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 28 fotos; 27 sirvieron para analizar la obra. Se vieron personas en 14 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "resumen_dia": "La cámara tomó 28 fotos; 27 sirvieron para analizar la obra. Se vieron personas en 13 fotos. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": null
   },
   {
@@ -12777,11 +12785,11 @@
    "calidad_fotos": "normal",
    "n_fotos": 28,
    "n_fotos_usables": 28,
-   "n_fotos_con_personas": 9,
+   "n_fotos_con_personas": 8,
    "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
    "maquinaria_lista": [],
    "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 28 fotos; 28 sirvieron para analizar la obra. Se vieron personas en 9 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "resumen_dia": "La cámara tomó 28 fotos; 28 sirvieron para analizar la obra. Se vieron personas en 8 fotos. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": null
   },
   {
@@ -12999,7 +13007,7 @@
   {
    "fecha": "2026-05-14",
    "personas_detectadas": 5,
-   "maquinaria_detectada": 0,
+   "maquinaria_detectada": 1,
    "casco": "No determinable",
    "chaleco": "No determinable",
    "estado_datos": "disponible",
@@ -13066,25 +13074,25 @@
      "motivo_texto": ""
     },
     {
-     "hora": "12:00:26",
-     "url": "https://drive.google.com/thumbnail?id=1PQNtdK-DVyXYqHvDVH0eFsbnOp6Gn2TW&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1PQNtdK-DVyXYqHvDVH0eFsbnOp6Gn2TW&sz=w1600",
+     "hora": "07:50:46",
+     "url": "https://drive.google.com/thumbnail?id=1s6LZTMJsNjtHzSIZfh_ZKX4oZgKdxy1U&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1s6LZTMJsNjtHzSIZfh_ZKX4oZgKdxy1U&sz=w1600",
      "usable": true,
      "invertida": true,
      "motivo_texto": ""
     },
     {
-     "hora": "13:23:43",
-     "url": "https://drive.google.com/thumbnail?id=1-czVC7iXJSxK8iPqbrdQV-KhLTJCgBJC&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1-czVC7iXJSxK8iPqbrdQV-KhLTJCgBJC&sz=w1600",
+     "hora": "13:02:55",
+     "url": "https://drive.google.com/thumbnail?id=1zMVEGnm9KjHeNU_jcKHd95OFUm04y2yk&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1zMVEGnm9KjHeNU_jcKHd95OFUm04y2yk&sz=w1600",
      "usable": true,
      "invertida": true,
      "motivo_texto": ""
     },
     {
-     "hora": "14:26:07",
-     "url": "https://drive.google.com/thumbnail?id=1vOh8ZBaFvU1gcPCd7D0sDymprz1-u0k_&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1vOh8ZBaFvU1gcPCd7D0sDymprz1-u0k_&sz=w1600",
+     "hora": "14:05:19",
+     "url": "https://drive.google.com/thumbnail?id=1FRPOTOsjbEAt1m8lDM6ZdLXP9j6eCmX_&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1FRPOTOsjbEAt1m8lDM6ZdLXP9j6eCmX_&sz=w1600",
      "usable": true,
      "invertida": true,
      "motivo_texto": ""
@@ -13095,11 +13103,11 @@
    "calidad_fotos": "normal",
    "n_fotos": 29,
    "n_fotos_usables": 29,
-   "n_fotos_con_personas": 10,
+   "n_fotos_con_personas": 11,
    "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
    "maquinaria_lista": [],
    "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 29 fotos; 29 sirvieron para analizar la obra. Se vieron personas en 10 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "resumen_dia": "La cámara tomó 29 fotos; 29 sirvieron para analizar la obra. Se vieron personas en 11 fotos. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": null
   },
   {
@@ -13127,17 +13135,17 @@
      "motivo_texto": ""
     },
     {
-     "hora": "12:08:25",
-     "url": "https://drive.google.com/thumbnail?id=1oxCqenS2twsZjFgN2ax3NFzoK81LrPDK&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1oxCqenS2twsZjFgN2ax3NFzoK81LrPDK&sz=w1600",
+     "hora": "11:47:36",
+     "url": "https://drive.google.com/thumbnail?id=15ao9ohcpfethN3BJfp3hWkX2zRu4S4Uz&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=15ao9ohcpfethN3BJfp3hWkX2zRu4S4Uz&sz=w1600",
      "usable": true,
      "invertida": true,
      "motivo_texto": ""
     },
     {
-     "hora": "15:15:50",
-     "url": "https://drive.google.com/thumbnail?id=14sMVClyckuFGylWbiq5dsNXXqEfH2OqO&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=14sMVClyckuFGylWbiq5dsNXXqEfH2OqO&sz=w1600",
+     "hora": "14:34:13",
+     "url": "https://drive.google.com/thumbnail?id=1DYo1xjmtlHtO-CGpfdmIRhmH81ACsxKl&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1DYo1xjmtlHtO-CGpfdmIRhmH81ACsxKl&sz=w1600",
      "usable": true,
      "invertida": true,
      "motivo_texto": ""
@@ -13148,11 +13156,11 @@
    "calidad_fotos": "normal",
    "n_fotos": 30,
    "n_fotos_usables": 29,
-   "n_fotos_con_personas": 13,
+   "n_fotos_con_personas": 14,
    "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
    "maquinaria_lista": [],
    "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 30 fotos; 29 sirvieron para analizar la obra. Se vieron personas en 13 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "resumen_dia": "La cámara tomó 30 fotos; 29 sirvieron para analizar la obra. Se vieron personas en 14 fotos. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": null
   },
   {
@@ -13278,25 +13286,25 @@
      "motivo_texto": ""
     },
     {
-     "hora": "09:02:52",
-     "url": "https://drive.google.com/thumbnail?id=1yA8ERXzD_ZFhlrXEIBR5W5SWdK-tq3s1&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1yA8ERXzD_ZFhlrXEIBR5W5SWdK-tq3s1&sz=w1600",
+     "hora": "09:44:31",
+     "url": "https://drive.google.com/thumbnail?id=1Z2C63wUMlX7iChfhn9tSw2OZWuo6Mw9N&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1Z2C63wUMlX7iChfhn9tSw2OZWuo6Mw9N&sz=w1600",
      "usable": true,
      "invertida": true,
      "motivo_texto": ""
     },
     {
-     "hora": "10:26:08",
-     "url": "https://drive.google.com/thumbnail?id=1hVbepKpcYqGE5vvUJRrt8CQSQdUZbrND&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1hVbepKpcYqGE5vvUJRrt8CQSQdUZbrND&sz=w1600",
+     "hora": "10:46:59",
+     "url": "https://drive.google.com/thumbnail?id=1Z4b9Fv3V8tYyPWSdZ2lDYhq9n7Qx6jxR&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1Z4b9Fv3V8tYyPWSdZ2lDYhq9n7Qx6jxR&sz=w1600",
      "usable": true,
      "invertida": true,
      "motivo_texto": ""
     },
     {
-     "hora": "11:28:35",
-     "url": "https://drive.google.com/thumbnail?id=1BqgEvMrQy9U1cAJ-N4P03-F7Dp_gh8Fo&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1BqgEvMrQy9U1cAJ-N4P03-F7Dp_gh8Fo&sz=w1600",
+     "hora": "12:10:15",
+     "url": "https://drive.google.com/thumbnail?id=1lPmjD3ezYrLm1Ivdh1l5CuIwW1T7hR0I&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1lPmjD3ezYrLm1Ivdh1l5CuIwW1T7hR0I&sz=w1600",
      "usable": true,
      "invertida": true,
      "motivo_texto": ""
@@ -13307,11 +13315,11 @@
    "calidad_fotos": "normal",
    "n_fotos": 29,
    "n_fotos_usables": 28,
-   "n_fotos_con_personas": 14,
+   "n_fotos_con_personas": 13,
    "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
    "maquinaria_lista": [],
    "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 29 fotos; 28 sirvieron para analizar la obra. Se vieron personas en 14 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "resumen_dia": "La cámara tomó 29 fotos; 28 sirvieron para analizar la obra. Se vieron personas en 13 fotos. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": null
   },
   {
@@ -13423,7 +13431,7 @@
   {
    "fecha": "2026-05-22",
    "personas_detectadas": 1,
-   "maquinaria_detectada": 1,
+   "maquinaria_detectada": 2,
    "casco": "No determinable",
    "chaleco": "No determinable",
    "estado_datos": "disponible",
@@ -13557,7 +13565,7 @@
   },
   {
    "fecha": "2026-05-25",
-   "personas_detectadas": 2,
+   "personas_detectadas": 1,
    "maquinaria_detectada": 0,
    "casco": "No determinable",
    "chaleco": "No determinable",
@@ -13654,11 +13662,11 @@
    "calidad_fotos": "normal",
    "n_fotos": 29,
    "n_fotos_usables": 29,
-   "n_fotos_con_personas": 9,
+   "n_fotos_con_personas": 10,
    "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
    "maquinaria_lista": [],
    "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 29 fotos; 29 sirvieron para analizar la obra. Se vieron personas en 9 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "resumen_dia": "La cámara tomó 29 fotos; 29 sirvieron para analizar la obra. Se vieron personas en 10 fotos. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": null
   },
   {
@@ -13723,33 +13731,33 @@
    "estado_datos": "disponible",
    "fotografias": [
     {
-     "hora": "07:01:34",
-     "url": "https://drive.google.com/thumbnail?id=1_lNKkkAKVdGiGQ6AcOtqg6Aa-i-aDRio&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1_lNKkkAKVdGiGQ6AcOtqg6Aa-i-aDRio&sz=w1600",
+     "hora": "07:22:24",
+     "url": "https://drive.google.com/thumbnail?id=1HfMZ9UpWn3HPbLwD4s5M8rIu3_1Rzp4h&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1HfMZ9UpWn3HPbLwD4s5M8rIu3_1Rzp4h&sz=w1600",
      "usable": true,
      "invertida": true,
      "motivo_texto": ""
     },
     {
-     "hora": "08:45:10",
-     "url": "https://drive.google.com/thumbnail?id=1tmaA0aertvkBod4HZZPqX4trYvsZ7aO-&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1tmaA0aertvkBod4HZZPqX4trYvsZ7aO-&sz=w1600",
+     "hora": "09:26:50",
+     "url": "https://drive.google.com/thumbnail?id=1Kz44nfO26YTFz1WoASRg9J-mUOZ7rub-&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1Kz44nfO26YTFz1WoASRg9J-mUOZ7rub-&sz=w1600",
      "usable": true,
      "invertida": true,
      "motivo_texto": ""
     },
     {
-     "hora": "10:29:15",
-     "url": "https://drive.google.com/thumbnail?id=1j1ExcrSGtTMHnIxfE_hDMPVi5TFbZ6E0&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1j1ExcrSGtTMHnIxfE_hDMPVi5TFbZ6E0&sz=w1600",
+     "hora": "11:31:10",
+     "url": "https://drive.google.com/thumbnail?id=1sCrue0n5T4IVIm3qzX5hYkzZgD77LE1V&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1sCrue0n5T4IVIm3qzX5hYkzZgD77LE1V&sz=w1600",
      "usable": true,
      "invertida": true,
      "motivo_texto": ""
     },
     {
-     "hora": "13:15:22",
-     "url": "https://drive.google.com/thumbnail?id=1VsdeyadFYDa6UuAvqAH0APX3g7rQfYfl&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1VsdeyadFYDa6UuAvqAH0APX3g7rQfYfl&sz=w1600",
+     "hora": "13:56:58",
+     "url": "https://drive.google.com/thumbnail?id=1Id-qYhpdk6OqtBwJSBxeDV7EnShXxYci&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1Id-qYhpdk6OqtBwJSBxeDV7EnShXxYci&sz=w1600",
      "usable": true,
      "invertida": true,
      "motivo_texto": ""
@@ -13760,11 +13768,11 @@
    "calidad_fotos": "normal",
    "n_fotos": 27,
    "n_fotos_usables": 27,
-   "n_fotos_con_personas": 14,
+   "n_fotos_con_personas": 13,
    "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
    "maquinaria_lista": [],
    "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 27 fotos; 27 sirvieron para analizar la obra. Se vieron personas en 14 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "resumen_dia": "La cámara tomó 27 fotos; 27 sirvieron para analizar la obra. Se vieron personas en 13 fotos. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": null
   },
   {
@@ -13956,11 +13964,11 @@
    "calidad_fotos": "normal",
    "n_fotos": 29,
    "n_fotos_usables": 29,
-   "n_fotos_con_personas": 4,
+   "n_fotos_con_personas": 5,
    "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
    "maquinaria_lista": [],
    "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 29 fotos; 29 sirvieron para analizar la obra. Se vieron personas en 4 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "resumen_dia": "La cámara tomó 29 fotos; 29 sirvieron para analizar la obra. Se vieron personas en 5 fotos. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": null
   },
   {
@@ -14009,11 +14017,11 @@
    "calidad_fotos": "normal",
    "n_fotos": 29,
    "n_fotos_usables": 29,
-   "n_fotos_con_personas": 7,
+   "n_fotos_con_personas": 6,
    "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
    "maquinaria_lista": [],
    "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 29 fotos; 29 sirvieron para analizar la obra. Se vieron personas en 7 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "resumen_dia": "La cámara tomó 29 fotos; 29 sirvieron para analizar la obra. Se vieron personas en 6 fotos. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": null
   },
   {
@@ -14343,17 +14351,17 @@
      "motivo_texto": ""
     },
     {
-     "hora": "14:59:57",
-     "url": "https://drive.google.com/thumbnail?id=1rXY1YaMzKbaM7wXdBKhS6JItNFDSIdYx&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1rXY1YaMzKbaM7wXdBKhS6JItNFDSIdYx&sz=w1600",
+     "hora": "14:18:21",
+     "url": "https://drive.google.com/thumbnail?id=1JeX7BQfLvsvE6hELrFvhQ08O1KTzrZz9&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1JeX7BQfLvsvE6hELrFvhQ08O1KTzrZz9&sz=w1600",
      "usable": true,
      "invertida": true,
      "motivo_texto": ""
     },
     {
-     "hora": "16:23:12",
-     "url": "https://drive.google.com/thumbnail?id=1vBBNn3v9lZsDeAY7aTqC55K1an7X5cyx&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1vBBNn3v9lZsDeAY7aTqC55K1an7X5cyx&sz=w1600",
+     "hora": "15:41:35",
+     "url": "https://drive.google.com/thumbnail?id=1utfbWCaXyybJypafJFHY0EiwzFk6LYKG&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1utfbWCaXyybJypafJFHY0EiwzFk6LYKG&sz=w1600",
      "usable": true,
      "invertida": true,
      "motivo_texto": ""
@@ -14364,11 +14372,11 @@
    "calidad_fotos": "normal",
    "n_fotos": 29,
    "n_fotos_usables": 29,
-   "n_fotos_con_personas": 8,
+   "n_fotos_con_personas": 9,
    "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
    "maquinaria_lista": [],
    "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 29 fotos; 29 sirvieron para analizar la obra. Se vieron personas en 8 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "resumen_dia": "La cámara tomó 29 fotos; 29 sirvieron para analizar la obra. Se vieron personas en 9 fotos. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": null
   },
   {
@@ -14515,16 +14523,16 @@
    "calidad_fotos": "normal",
    "n_fotos": 29,
    "n_fotos_usables": 29,
-   "n_fotos_con_personas": 10,
+   "n_fotos_con_personas": 9,
    "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
    "maquinaria_lista": [],
    "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 29 fotos; 29 sirvieron para analizar la obra. Se vieron personas en 10 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "resumen_dia": "La cámara tomó 29 fotos; 29 sirvieron para analizar la obra. Se vieron personas en 9 fotos. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": null
   },
   {
    "fecha": "2026-06-13",
-   "personas_detectadas": 2,
+   "personas_detectadas": 3,
    "maquinaria_detectada": 1,
    "casco": "No determinable",
    "chaleco": "No determinable",
@@ -14698,25 +14706,25 @@
      "motivo_texto": ""
     },
     {
-     "hora": "09:42:04",
-     "url": "https://drive.google.com/thumbnail?id=1cnPzBzguVxzHXM5iuqmdVz0awmZrHrdf&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1cnPzBzguVxzHXM5iuqmdVz0awmZrHrdf&sz=w1600",
+     "hora": "10:02:55",
+     "url": "https://drive.google.com/thumbnail?id=18YrT-eyES2VOO4fHv9UGUtdao_Uc5kVF&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=18YrT-eyES2VOO4fHv9UGUtdao_Uc5kVF&sz=w1600",
      "usable": true,
      "invertida": true,
      "motivo_texto": ""
     },
     {
-     "hora": "11:26:17",
-     "url": "https://drive.google.com/thumbnail?id=15yYcQNoSnrgTeIaxJ6PhGrssnbBsyKqj&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=15yYcQNoSnrgTeIaxJ6PhGrssnbBsyKqj&sz=w1600",
+     "hora": "13:31:20",
+     "url": "https://drive.google.com/thumbnail?id=1ZEZFSqPce5ci5rU0alKyG_gOHao4R99d&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1ZEZFSqPce5ci5rU0alKyG_gOHao4R99d&sz=w1600",
      "usable": true,
      "invertida": true,
      "motivo_texto": ""
     },
     {
-     "hora": "14:33:49",
-     "url": "https://drive.google.com/thumbnail?id=1yuBe-OIZqmgFMugiU4ZUqAqyC1OBeVGB&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1yuBe-OIZqmgFMugiU4ZUqAqyC1OBeVGB&sz=w1600",
+     "hora": "15:15:28",
+     "url": "https://drive.google.com/thumbnail?id=1rSBpHgjV0TrneG3JG-6wrr9dUNClwXh0&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1rSBpHgjV0TrneG3JG-6wrr9dUNClwXh0&sz=w1600",
      "usable": true,
      "invertida": true,
      "motivo_texto": ""
@@ -14727,16 +14735,16 @@
    "calidad_fotos": "normal",
    "n_fotos": 29,
    "n_fotos_usables": 27,
-   "n_fotos_con_personas": 9,
+   "n_fotos_con_personas": 8,
    "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
    "maquinaria_lista": [],
    "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 29 fotos; 27 sirvieron para analizar la obra. No sirvieron: 2 borrosas (lente empañado o sucio). Se vieron personas en 9 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "resumen_dia": "La cámara tomó 29 fotos; 27 sirvieron para analizar la obra. No sirvieron: 2 borrosas (lente empañado o sucio). Se vieron personas en 8 fotos. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": null
   },
   {
    "fecha": "2026-06-17",
-   "personas_detectadas": 3,
+   "personas_detectadas": 2,
    "maquinaria_detectada": 2,
    "casco": "No determinable",
    "chaleco": "No determinable",
@@ -14789,7 +14797,7 @@
   },
   {
    "fecha": "2026-06-18",
-   "personas_detectadas": 3,
+   "personas_detectadas": 4,
    "maquinaria_detectada": 2,
    "casco": "No determinable",
    "chaleco": "No determinable",
@@ -14978,7 +14986,7 @@
   {
    "fecha": "2026-06-22",
    "personas_detectadas": 1,
-   "maquinaria_detectada": 0,
+   "maquinaria_detectada": 1,
    "casco": "No determinable",
    "chaleco": "No determinable",
    "estado_datos": "disponible",
@@ -15067,7 +15075,7 @@
   },
   {
    "fecha": "2026-06-24",
-   "personas_detectadas": 2,
+   "personas_detectadas": 1,
    "maquinaria_detectada": 0,
    "casco": "No determinable",
    "chaleco": "No determinable",
@@ -15299,17 +15307,17 @@
    "estado_datos": "disponible",
    "fotografias": [
     {
-     "hora": "08:47:44",
-     "url": "https://drive.google.com/thumbnail?id=1AsT6H_AFIrR0vtoY1ppu9oJDVonJHuaT&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1AsT6H_AFIrR0vtoY1ppu9oJDVonJHuaT&sz=w1600",
+     "hora": "07:03:40",
+     "url": "https://drive.google.com/thumbnail?id=1k1ffpBFHyVIcAx-Aj94hmFTf_vRlK8V_&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1k1ffpBFHyVIcAx-Aj94hmFTf_vRlK8V_&sz=w1600",
      "usable": true,
      "invertida": true,
      "motivo_texto": ""
     },
     {
-     "hora": "10:11:00",
-     "url": "https://drive.google.com/thumbnail?id=1RSV6Y7_gEpKVkEi74T-qNe3vam92deJ-&sz=w800",
-     "url_grande": "https://drive.google.com/thumbnail?id=1RSV6Y7_gEpKVkEi74T-qNe3vam92deJ-&sz=w1600",
+     "hora": "09:50:11",
+     "url": "https://drive.google.com/thumbnail?id=1bN_u_zQrXrtJgbSL06ycPo55laB0TL_g&sz=w800",
+     "url_grande": "https://drive.google.com/thumbnail?id=1bN_u_zQrXrtJgbSL06ycPo55laB0TL_g&sz=w1600",
      "usable": true,
      "invertida": true,
      "motivo_texto": ""
