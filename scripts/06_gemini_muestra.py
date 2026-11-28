@@ -85,7 +85,14 @@ class ErrorDeConfiguracion(Exception):
     """Modelo inexistente, clave inválida o sin permiso: no tiene sentido seguir con las demás fotos."""
 
 
+CONFIG_COMPLETA = {"responseMimeType": "application/json", "temperature": 0.2,
+                   "thinkingConfig": {"thinkingBudget": 0}}
+CONFIG_MINIMA = {"responseMimeType": "application/json"}
+config_actual = dict(CONFIG_COMPLETA)
+
+
 def analizar(foto, clave, sesion):
+    global config_actual
     img = cv2.imread(str(DATOS / "fotos" / foto["fecha"] / foto["archivo"]))
     if foto["orientacion"] == "invertida":
         img = cv2.rotate(img, cv2.ROTATE_180)
@@ -95,8 +102,7 @@ def analizar(foto, clave, sesion):
             {"text": INSTRUCCION},
             {"inline_data": {"mime_type": "image/jpeg", "data": base64.b64encode(jpg.tobytes()).decode()}},
         ]}],
-        "generationConfig": {"responseMimeType": "application/json", "temperature": 0.2,
-                             "thinkingConfig": {"thinkingBudget": 0}},
+        "generationConfig": dict(config_actual),
     }
     for intento in range(6):
         r = sesion.post(URL.format(modelo=MODELO), json=cuerpo, timeout=120,
@@ -110,7 +116,10 @@ def analizar(foto, clave, sesion):
             # Los modelos Gemini 3 no aceptan algunos parámetros de los 2.5 (p. ej. thinkingBudget):
             # se reintenta una vez con la configuración mínima y se deja constancia en el log.
             print(f"Gemini 400 con la configuración completa; se reintenta con la mínima. Detalle: {r.text[:300]}", flush=True)
-            cuerpo["generationConfig"] = {"responseMimeType": "application/json"}
+            # gemini-3.5-flash-lite responde 400 a temperature/thinkingBudget de los 2.5: desde aquí se usa
+            # la configuración mínima para todas las fotos (así no se gasta una solicitud extra por foto).
+            config_actual = dict(CONFIG_MINIMA)
+            cuerpo["generationConfig"] = dict(config_actual)
             continue
         if r.status_code in (401, 403, 404) or (r.status_code == 400 and "API key" in r.text):
             raise ErrorDeConfiguracion(f"{r.status_code}: {r.text[:300]}")
