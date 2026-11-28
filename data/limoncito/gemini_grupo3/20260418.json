@@ -4,27 +4,107 @@
   {
    "nombre_imagen": "IMG_CAM_01_20260418_084328.jpg",
    "fecha_hora": "2026-04-18 08:43:28",
-   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+   "maquinaria": [
+    "Andamios"
+   ],
+   "personas_trabajadoras": 0,
+   "seguridad_laboral": {
+    "uso_casco": "No determinable",
+    "uso_chaleco": "No determinable",
+    "uso_arnes_altura": "No determinable",
+    "observaciones": "No se observan trabajadores en la toma."
+   },
+   "actividad_desarrollada": "Sin actividad visible en el momento de la captura.",
+   "condiciones_climaticas": {
+    "clima_general": "Despejado",
+    "visibilidad": "Regular"
+   },
+   "etapa_constructiva": "Estructura y montaje de cubierta",
+   "certeza": "Media"
   },
   {
    "nombre_imagen": "IMG_CAM_01_20260418_104823.jpg",
    "fecha_hora": "2026-04-18 10:48:23",
-   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+   "maquinaria": [
+    "Andamios"
+   ],
+   "personas_trabajadoras": 1,
+   "seguridad_laboral": {
+    "uso_casco": "No determinable",
+    "uso_chaleco": "No determinable",
+    "uso_arnes_altura": "No aplica",
+    "observaciones": "Baja resolucion de camara impide verificar EPP detalladamente."
+   },
+   "actividad_desarrollada": "Trabajos generales en area central y acopio de materiales",
+   "condiciones_climaticas": {
+    "clima_general": "Despejado",
+    "visibilidad": "Regular"
+   },
+   "etapa_constructiva": "Estructura avanzada con colocacion de cubierta metalica y cerramientos",
+   "certeza": "Media"
   },
   {
    "nombre_imagen": "IMG_CAM_01_20260418_123233.jpg",
    "fecha_hora": "2026-04-18 12:32:33",
-   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+   "maquinaria": [
+    "Telehandler"
+   ],
+   "personas_trabajadoras": 1,
+   "seguridad_laboral": {
+    "uso_casco": "No determinable",
+    "uso_chaleco": "Si",
+    "uso_arnes_altura": "No aplica",
+    "observaciones": "Se observa una persona con chaleco en el nivel inferior, pero la distancia y resolucion impiden ver detalles del casco."
+   },
+   "actividad_desarrollada": "Trabajos generales en area interior de la edificacion",
+   "condiciones_climaticas": {
+    "clima_general": "Despejado",
+    "visibilidad": "Regular"
+   },
+   "etapa_constructiva": "Estructura principal y cubierta con avances en cerramientos",
+   "certeza": "Media"
   },
   {
    "nombre_imagen": "IMG_CAM_01_20260418_135548.jpg",
    "fecha_hora": "2026-04-18 13:55:48",
-   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+   "maquinaria": [
+    "Manipulador telescopico"
+   ],
+   "personas_trabajadoras": 1,
+   "seguridad_laboral": {
+    "uso_casco": "No determinable",
+    "uso_chaleco": "No determinable",
+    "uso_arnes_altura": "No determinable",
+    "observaciones": "Baja resolucion de la imagen no permite distinguir elementos de seguridad en la persona visible."
+   },
+   "actividad_desarrollada": "Operacion de maquinaria y acopio de materiales",
+   "condiciones_climaticas": {
+    "clima_general": "Despejado",
+    "visibilidad": "Regular"
+   },
+   "etapa_constructiva": "Estructura y acabados",
+   "certeza": "Media"
   },
   {
    "nombre_imagen": "IMG_CAM_01_20260418_151902.jpg",
    "fecha_hora": "2026-04-18 15:19:02",
-   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+   "maquinaria": [
+    "Manipulador telescopico"
+   ],
+   "personas_trabajadoras": 1,
+   "seguridad_laboral": {
+    "uso_casco": "No determinable",
+    "uso_chaleco": "No determinable",
+    "uso_arnes_altura": "No aplica",
+    "observaciones": "La resolucion y la distancia no permiten evaluar el equipo de proteccion con certeza."
+   },
+   "actividad_desarrollada": "Trabajos generales de construccion en estructura",
+   "condiciones_climaticas": {
+    "clima_general": "Despejado",
+    "visibilidad": "Regular"
+   },
+   "etapa_constructiva": "Estructura y cerramientos",
+   "certeza": "Media"
   }
  ],
  "total": 5,

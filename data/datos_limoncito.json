@@ -1,6 +1,6 @@
 {
  "tipo_datos": "REALES · Fotos de la cámara dIAra (CGR) · Procesamiento: Grupo 3, LEAD University",
- "generado": "2026-11-28T17:01:08+00:00",
+ "generado": "2026-11-28T17:32:53+00:00",
  "obra": {
   "id": "limoncito",
   "nombre": "Escuela Barrio Limoncito",
@@ -11625,10 +11625,10 @@
   },
   {
    "fecha": "2026-04-18",
-   "personas_detectadas": 7,
-   "maquinaria_detectada": 1,
+   "personas_detectadas": 1,
+   "maquinaria_detectada": 3,
    "casco": "No determinable",
-   "chaleco": "No determinable",
+   "chaleco": "Si",
    "estado_datos": "disponible",
    "fotografias": [
     {
@@ -11670,10 +11670,14 @@
    "n_fotos": 28,
    "n_fotos_usables": 27,
    "n_fotos_con_personas": 18,
-   "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
-   "maquinaria_lista": [],
-   "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 28 fotos; 27 sirvieron para analizar la obra. Se vieron personas en 18 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "fuente_personas": "Gemini (Grupo 3, gemini-3.5-flash-lite)",
+   "maquinaria_lista": [
+    "Andamios",
+    "Manipulador telescopico",
+    "Telehandler"
+   ],
+   "lluvia_observada": false,
+   "resumen_dia": "La cámara tomó 28 fotos; 27 sirvieron para analizar la obra. Se vieron personas en 18 fotos (hasta 1 en una misma foto, según Gemini). Maquinaria visible: andamios, manipulador telescopico, telehandler. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": null,
    "alertas": [
     "camara-7"
@@ -11681,10 +11685,10 @@
   },
   {
    "fecha": "2026-04-19",
-   "personas_detectadas": 6,
-   "maquinaria_detectada": 1,
-   "casco": "No determinable",
-   "chaleco": "No determinable",
+   "personas_detectadas": 4,
+   "maquinaria_detectada": 2,
+   "casco": "Parcial",
+   "chaleco": "Si",
    "estado_datos": "disponible",
    "fotografias": [
     {
@@ -11726,18 +11730,21 @@
    "n_fotos": 25,
    "n_fotos_usables": 25,
    "n_fotos_con_personas": 15,
-   "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
-   "maquinaria_lista": [],
-   "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 25 fotos; 25 sirvieron para analizar la obra. Se vieron personas en 15 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "fuente_personas": "Gemini (Grupo 3, gemini-3.5-flash-lite)",
+   "maquinaria_lista": [
+    "Andamios",
+    "Manipulador telescopico"
+   ],
+   "lluvia_observada": false,
+   "resumen_dia": "La cámara tomó 25 fotos; 25 sirvieron para analizar la obra. Se vieron personas en 15 fotos (hasta 4 en una misma foto, según Gemini). Maquinaria visible: andamios, manipulador telescopico. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": null
   },
   {
    "fecha": "2026-04-20",
-   "personas_detectadas": 6,
-   "maquinaria_detectada": 2,
+   "personas_detectadas": 3,
+   "maquinaria_detectada": 4,
    "casco": "No determinable",
-   "chaleco": "No determinable",
+   "chaleco": "Parcial",
    "estado_datos": "disponible",
    "fotografias": [
     {
@@ -11779,18 +11786,23 @@
    "n_fotos": 26,
    "n_fotos_usables": 26,
    "n_fotos_con_personas": 22,
-   "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
-   "maquinaria_lista": [],
-   "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 26 fotos; 26 sirvieron para analizar la obra. Se vieron personas en 22 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "fuente_personas": "Gemini (Grupo 3, gemini-3.5-flash-lite)",
+   "maquinaria_lista": [
+    "Andamios",
+    "Bomba de concreto",
+    "Hormigonera",
+    "Manipulador telescopico"
+   ],
+   "lluvia_observada": false,
+   "resumen_dia": "La cámara tomó 26 fotos; 26 sirvieron para analizar la obra. Se vieron personas en 22 fotos (hasta 3 en una misma foto, según Gemini). Maquinaria visible: andamios, bomba de concreto, hormigonera, manipulador telescopico. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": null
   },
   {
    "fecha": "2026-04-21",
-   "personas_detectadas": 5,
-   "maquinaria_detectada": 2,
+   "personas_detectadas": 3,
+   "maquinaria_detectada": 5,
    "casco": "No determinable",
-   "chaleco": "No determinable",
+   "chaleco": "Parcial",
    "estado_datos": "disponible",
    "fotografias": [
     {
@@ -11832,18 +11844,24 @@
    "n_fotos": 27,
    "n_fotos_usables": 26,
    "n_fotos_con_personas": 18,
-   "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
-   "maquinaria_lista": [],
-   "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 27 fotos; 26 sirvieron para analizar la obra. Se vieron personas en 18 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "fuente_personas": "Gemini (Grupo 3, gemini-3.5-flash-lite)",
+   "maquinaria_lista": [
+    "Andamios",
+    "Camion de carga",
+    "Camion mixer",
+    "Manipulador telescopico",
+    "Retroexcavadora"
+   ],
+   "lluvia_observada": false,
+   "resumen_dia": "La cámara tomó 27 fotos; 26 sirvieron para analizar la obra. Se vieron personas en 18 fotos (hasta 3 en una misma foto, según Gemini). Maquinaria visible: andamios, camion de carga, camion mixer, manipulador telescopico, retroexcavadora. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": null
   },
   {
    "fecha": "2026-04-22",
-   "personas_detectadas": 12,
-   "maquinaria_detectada": 2,
-   "casco": "No determinable",
-   "chaleco": "No determinable",
+   "personas_detectadas": 6,
+   "maquinaria_detectada": 3,
+   "casco": "Si",
+   "chaleco": "Parcial",
    "estado_datos": "disponible",
    "fotografias": [
     {
@@ -11885,18 +11903,22 @@
    "n_fotos": 27,
    "n_fotos_usables": 27,
    "n_fotos_con_personas": 24,
-   "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
-   "maquinaria_lista": [],
-   "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 27 fotos; 27 sirvieron para analizar la obra. Se vieron personas en 24 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "fuente_personas": "Gemini (Grupo 3, gemini-3.5-flash-lite)",
+   "maquinaria_lista": [
+    "Andamios",
+    "Manipulador telescopico",
+    "Retroexcavadora"
+   ],
+   "lluvia_observada": false,
+   "resumen_dia": "La cámara tomó 27 fotos; 27 sirvieron para analizar la obra. Se vieron personas en 24 fotos (hasta 6 en una misma foto, según Gemini). Maquinaria visible: andamios, manipulador telescopico, retroexcavadora. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": null
   },
   {
    "fecha": "2026-04-23",
-   "personas_detectadas": 9,
-   "maquinaria_detectada": 3,
-   "casco": "No determinable",
-   "chaleco": "No determinable",
+   "personas_detectadas": 8,
+   "maquinaria_detectada": 4,
+   "casco": "Parcial",
+   "chaleco": "Si",
    "estado_datos": "disponible",
    "fotografias": [
     {
@@ -11938,18 +11960,23 @@
    "n_fotos": 26,
    "n_fotos_usables": 26,
    "n_fotos_con_personas": 21,
-   "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
-   "maquinaria_lista": [],
-   "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 26 fotos; 26 sirvieron para analizar la obra. Se vieron personas en 21 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "fuente_personas": "Gemini (Grupo 3, gemini-3.5-flash-lite)",
+   "maquinaria_lista": [
+    "Camion",
+    "Camion de carga",
+    "Cargador frontal",
+    "Manipulador telescopico"
+   ],
+   "lluvia_observada": false,
+   "resumen_dia": "La cámara tomó 26 fotos; 26 sirvieron para analizar la obra. Se vieron personas en 21 fotos (hasta 8 en una misma foto, según Gemini). Maquinaria visible: camion, camion de carga, cargador frontal, manipulador telescopico. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": null
   },
   {
    "fecha": "2026-04-24",
-   "personas_detectadas": 5,
-   "maquinaria_detectada": 2,
-   "casco": "No determinable",
-   "chaleco": "No determinable",
+   "personas_detectadas": 3,
+   "maquinaria_detectada": 5,
+   "casco": "Parcial",
+   "chaleco": "Parcial",
    "estado_datos": "disponible",
    "fotografias": [
     {
@@ -11991,18 +12018,24 @@
    "n_fotos": 28,
    "n_fotos_usables": 27,
    "n_fotos_con_personas": 15,
-   "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
-   "maquinaria_lista": [],
-   "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 28 fotos; 27 sirvieron para analizar la obra. Se vieron personas en 15 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "fuente_personas": "Gemini (Grupo 3, gemini-3.5-flash-lite)",
+   "maquinaria_lista": [
+    "Andamios",
+    "Camion",
+    "Grúa movil",
+    "Hormigonera",
+    "Manipulador telescopico"
+   ],
+   "lluvia_observada": false,
+   "resumen_dia": "La cámara tomó 28 fotos; 27 sirvieron para analizar la obra. Se vieron personas en 15 fotos (hasta 3 en una misma foto, según Gemini). Maquinaria visible: andamios, camion, grúa movil, hormigonera, manipulador telescopico. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": null
   },
   {
    "fecha": "2026-04-25",
-   "personas_detectadas": 5,
+   "personas_detectadas": 3,
    "maquinaria_detectada": 2,
    "casco": "No determinable",
-   "chaleco": "No determinable",
+   "chaleco": "Parcial",
    "estado_datos": "disponible",
    "fotografias": [
     {
@@ -12044,18 +12077,21 @@
    "n_fotos": 27,
    "n_fotos_usables": 27,
    "n_fotos_con_personas": 21,
-   "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
-   "maquinaria_lista": [],
-   "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 27 fotos; 27 sirvieron para analizar la obra. Se vieron personas en 21 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "fuente_personas": "Gemini (Grupo 3, gemini-3.5-flash-lite)",
+   "maquinaria_lista": [
+    "Andamios",
+    "Hormigonera"
+   ],
+   "lluvia_observada": false,
+   "resumen_dia": "La cámara tomó 27 fotos; 27 sirvieron para analizar la obra. Se vieron personas en 21 fotos (hasta 3 en una misma foto, según Gemini). Maquinaria visible: andamios, hormigonera. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": null
   },
   {
    "fecha": "2026-04-26",
    "personas_detectadas": 2,
-   "maquinaria_detectada": 1,
+   "maquinaria_detectada": 2,
    "casco": "No determinable",
-   "chaleco": "No determinable",
+   "chaleco": "Parcial",
    "estado_datos": "disponible",
    "fotografias": [
     {
@@ -12097,18 +12133,21 @@
    "n_fotos": 29,
    "n_fotos_usables": 29,
    "n_fotos_con_personas": 11,
-   "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
-   "maquinaria_lista": [],
-   "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 29 fotos; 29 sirvieron para analizar la obra. Se vieron personas en 11 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "fuente_personas": "Gemini (Grupo 3, gemini-3.5-flash-lite)",
+   "maquinaria_lista": [
+    "Andamios",
+    "Hormigonera"
+   ],
+   "lluvia_observada": false,
+   "resumen_dia": "La cámara tomó 29 fotos; 29 sirvieron para analizar la obra. Se vieron personas en 11 fotos (hasta 2 en una misma foto, según Gemini). Maquinaria visible: andamios, hormigonera. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": null
   },
   {
    "fecha": "2026-04-27",
-   "personas_detectadas": 7,
-   "maquinaria_detectada": 2,
+   "personas_detectadas": 3,
+   "maquinaria_detectada": 3,
    "casco": "No determinable",
-   "chaleco": "No determinable",
+   "chaleco": "Parcial",
    "estado_datos": "disponible",
    "fotografias": [
     {
@@ -12150,10 +12189,14 @@
    "n_fotos": 27,
    "n_fotos_usables": 26,
    "n_fotos_con_personas": 23,
-   "fuente_personas": "Modelo abierto YOLO11s (cuenta menos personas que Gemini)",
-   "maquinaria_lista": [],
-   "lluvia_observada": null,
-   "resumen_dia": "La cámara tomó 27 fotos; 26 sirvieron para analizar la obra. Se vieron personas en 23 fotos. Esto indica presencia de trabajo, no avance de la obra.",
+   "fuente_personas": "Gemini (Grupo 3, gemini-3.5-flash-lite)",
+   "maquinaria_lista": [
+    "Andamios",
+    "Carretilla",
+    "Manipulador telescopico"
+   ],
+   "lluvia_observada": false,
+   "resumen_dia": "La cámara tomó 27 fotos; 26 sirvieron para analizar la obra. Se vieron personas en 23 fotos (hasta 3 en una misma foto, según Gemini). Maquinaria visible: andamios, carretilla, manipulador telescopico. Esto indica presencia de trabajo, no avance de la obra.",
    "resumen_gemini_cgr": null
   },
   {

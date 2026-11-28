@@ -4,27 +4,105 @@
   {
    "nombre_imagen": "IMG_CAM_01_20260426_081432.jpg",
    "fecha_hora": "2026-04-26 08:14:32",
-   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+   "maquinaria": [],
+   "personas_trabajadoras": 0,
+   "seguridad_laboral": {
+    "uso_casco": "No determinable",
+    "uso_chaleco": "No determinable",
+    "uso_arnes_altura": "No determinable",
+    "observaciones": "No se aprecian personas en la imagen debido a la distancia y calidad de la toma."
+   },
+   "actividad_desarrollada": "Trabajos generales de construccion en estructura principal",
+   "condiciones_climaticas": {
+    "clima_general": "No determinable",
+    "visibilidad": "Regular"
+   },
+   "etapa_constructiva": "Estructura y obra gris con techumbre metalica instalada",
+   "certeza": "Media"
   },
   {
    "nombre_imagen": "IMG_CAM_01_20260426_104020.jpg",
    "fecha_hora": "2026-04-26 10:40:20",
-   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+   "maquinaria": [
+    "Andamios",
+    "Hormigonera"
+   ],
+   "personas_trabajadoras": 2,
+   "seguridad_laboral": {
+    "uso_casco": "No determinable",
+    "uso_chaleco": "Parcial",
+    "uso_arnes_altura": "No determinable",
+    "observaciones": "Se aprecian trabajadores en altura sobre andamios con visibilidad limitada de EPP por la distancia."
+   },
+   "actividad_desarrollada": "Trabajos en altura y acopio de materiales en estructura de concreto y metal.",
+   "condiciones_climaticas": {
+    "clima_general": "Despejado",
+    "visibilidad": "Buena"
+   },
+   "etapa_constructiva": "Estructura y cerramientos",
+   "certeza": "Media"
   },
   {
    "nombre_imagen": "IMG_CAM_01_20260426_124513.jpg",
    "fecha_hora": "2026-04-26 12:45:13",
-   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+   "maquinaria": [],
+   "personas_trabajadoras": 0,
+   "seguridad_laboral": {
+    "uso_casco": "No determinable",
+    "uso_chaleco": "No determinable",
+    "uso_arnes_altura": "No determinable",
+    "observaciones": "No se observan personas en la zona visible de la obra."
+   },
+   "actividad_desarrollada": "Sin actividad visible en el momento de la captura.",
+   "condiciones_climaticas": {
+    "clima_general": "No determinable",
+    "visibilidad": "Regular"
+   },
+   "etapa_constructiva": "Estructura de concreto y cubierta metalica avanzada",
+   "certeza": "Media"
   },
   {
    "nombre_imagen": "IMG_CAM_01_20260426_140830.jpg",
    "fecha_hora": "2026-04-26 14:08:30",
-   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+   "maquinaria": [
+    "Andamios"
+   ],
+   "personas_trabajadoras": 0,
+   "seguridad_laboral": {
+    "uso_casco": "No determinable",
+    "uso_chaleco": "No determinable",
+    "uso_arnes_altura": "No determinable",
+    "observaciones": "No se observan personas en la imagen."
+   },
+   "actividad_desarrollada": "Sin actividad visible en el momento de la captura.",
+   "condiciones_climaticas": {
+    "clima_general": "No determinable",
+    "visibilidad": "Mala"
+   },
+   "etapa_constructiva": "Estructura y cerramientos",
+   "certeza": "Baja"
   },
   {
    "nombre_imagen": "IMG_CAM_01_20260426_153145.jpg",
    "fecha_hora": "2026-04-26 15:31:45",
-   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+   "maquinaria": [
+    "Andamios",
+    "Hormigonera"
+   ],
+   "personas_trabajadoras": 0,
+   "seguridad_laboral": {
+    "uso_casco": "No determinable",
+    "uso_chaleco": "No determinable",
+    "uso_arnes_altura": "No determinable",
+    "observaciones": "No se aprecian personas en la toma debido a la distancia y contraluz."
+   },
+   "actividad_desarrollada": "Sin actividad visible en el momento",
+   "condiciones_climaticas": {
+    "clima_general": "No determinable",
+    "visibilidad": "Mala"
+   },
+   "etapa_constructiva": "Estructura y obra gris con cerramientos y acabados iniciales",
+   "certeza": "Baja"
   }
  ],
  "total": 5,

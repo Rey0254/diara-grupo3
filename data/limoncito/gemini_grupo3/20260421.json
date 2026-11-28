@@ -4,27 +4,109 @@
   {
    "nombre_imagen": "IMG_CAM_01_20260421_090223.jpg",
    "fecha_hora": "2026-04-21 09:02:23",
-   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+   "maquinaria": [
+    "Manipulador telescopico"
+   ],
+   "personas_trabajadoras": 0,
+   "seguridad_laboral": {
+    "uso_casco": "No determinable",
+    "uso_chaleco": "No determinable",
+    "uso_arnes_altura": "No determinable",
+    "observaciones": "No se observan personas en la imagen."
+   },
+   "actividad_desarrollada": "Sin actividad visible de personal en este sector",
+   "condiciones_climaticas": {
+    "clima_general": "Parcialmente nublado",
+    "visibilidad": "Buena"
+   },
+   "etapa_constructiva": "Estructura avanzada y montaje de cubierta metalica",
+   "certeza": "Media"
   },
   {
    "nombre_imagen": "IMG_CAM_01_20260421_110722.jpg",
    "fecha_hora": "2026-04-21 11:07:22",
-   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+   "maquinaria": [
+    "Camion mixer",
+    "Camion de carga",
+    "Andamios"
+   ],
+   "personas_trabajadoras": 0,
+   "seguridad_laboral": {
+    "uso_casco": "No determinable",
+    "uso_chaleco": "No determinable",
+    "uso_arnes_altura": "No determinable",
+    "observaciones": "No se observan trabajadores claramente en la toma general"
+   },
+   "actividad_desarrollada": "Trabajos de obra gris y almacenamiento de materiales en patio central",
+   "condiciones_climaticas": {
+    "clima_general": "Parcialmente nublado",
+    "visibilidad": "Buena"
+   },
+   "etapa_constructiva": "Estructura principal y cerramientos con avance en techumbre metalica",
+   "certeza": "Alta"
   },
   {
    "nombre_imagen": "IMG_CAM_01_20260421_125122.jpg",
    "fecha_hora": "2026-04-21 12:51:22",
-   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+   "maquinaria": [],
+   "personas_trabajadoras": 0,
+   "seguridad_laboral": {
+    "uso_casco": "No determinable",
+    "uso_chaleco": "No determinable",
+    "uso_arnes_altura": "No determinable",
+    "observaciones": "No se observan personas en la imagen."
+   },
+   "actividad_desarrollada": "Sin actividad visible en el momento",
+   "condiciones_climaticas": {
+    "clima_general": "Despejado",
+    "visibilidad": "Buena"
+   },
+   "etapa_constructiva": "Estructura avanzada con techado metalico",
+   "certeza": "Alta"
   },
   {
    "nombre_imagen": "IMG_CAM_01_20260421_141443.jpg",
    "fecha_hora": "2026-04-21 14:14:43",
-   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+   "maquinaria": [
+    "Manipulador telescopico",
+    "Andamios"
+   ],
+   "personas_trabajadoras": 3,
+   "seguridad_laboral": {
+    "uso_casco": "No determinable",
+    "uso_chaleco": "Parcial",
+    "uso_arnes_altura": "No aplica",
+    "observaciones": "Se distinguen operarios con chalecos reflectivos pero la resolucion no permite verificar cascos ni arneses con certeza."
+   },
+   "actividad_desarrollada": "Trabajos generales en area central de la obra con maquinaria y acopio de materiales.",
+   "condiciones_climaticas": {
+    "clima_general": "Despejado",
+    "visibilidad": "Buena"
+   },
+   "etapa_constructiva": "Estructura avanzada y cubierta metalica",
+   "certeza": "Media"
   },
   {
    "nombre_imagen": "IMG_CAM_01_20260421_153757.jpg",
    "fecha_hora": "2026-04-21 15:37:57",
-   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+   "maquinaria": [
+    "Retroexcavadora",
+    "Andamios"
+   ],
+   "personas_trabajadoras": 1,
+   "seguridad_laboral": {
+    "uso_casco": "No determinable",
+    "uso_chaleco": "Parcial",
+    "uso_arnes_altura": "No determinable",
+    "observaciones": "Baja resolucion de camara dificulta verificar elementos de proteccion personal detallados."
+   },
+   "actividad_desarrollada": "Trabajos generales en obra gris y acopio de materiales",
+   "condiciones_climaticas": {
+    "clima_general": "Despejado",
+    "visibilidad": "Regular"
+   },
+   "etapa_constructiva": "Estructura y cerramientos",
+   "certeza": "Media"
   }
  ],
  "total": 5,

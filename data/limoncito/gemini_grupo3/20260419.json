@@ -4,27 +4,102 @@
   {
    "nombre_imagen": "IMG_CAM_01_20260419_082906.jpg",
    "fecha_hora": "2026-04-19 08:29:06",
-   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+   "maquinaria": [],
+   "personas_trabajadoras": 0,
+   "seguridad_laboral": {
+    "uso_casco": "No determinable",
+    "uso_chaleco": "No determinable",
+    "uso_arnes_altura": "No determinable",
+    "observaciones": "No se observan trabajadores en la escena para evaluar elementos de proteccion."
+   },
+   "actividad_desarrollada": "Sin actividad visible en el momento de la captura.",
+   "condiciones_climaticas": {
+    "clima_general": "Parcialmente nublado",
+    "visibilidad": "Buena"
+   },
+   "etapa_constructiva": "Estructura principal terminada con cubierta metalica y trabajos en fachadas y andamios.",
+   "certeza": "Media"
   },
   {
    "nombre_imagen": "IMG_CAM_01_20260419_111430.jpg",
    "fecha_hora": "2026-04-19 11:14:30",
-   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+   "maquinaria": [
+    "Manipulador telescopico",
+    "Andamios"
+   ],
+   "personas_trabajadoras": 4,
+   "seguridad_laboral": {
+    "uso_casco": "Parcial",
+    "uso_chaleco": "Parcial",
+    "uso_arnes_altura": "No determinable",
+    "observaciones": "Se distinguen algunos operarios pero la distancia y resolucion dificultan la certeza total del equipo de proteccion personal."
+   },
+   "actividad_desarrollada": "Trabajos de construccion en estructura y fachada interior con manipulador telescopico en operacion.",
+   "condiciones_climaticas": {
+    "clima_general": "Despejado",
+    "visibilidad": "Buena"
+   },
+   "etapa_constructiva": "Obra gris avanzada con instalacion de estructura metalica de cubierta y acabados estructurales.",
+   "certeza": "Media"
   },
   {
    "nombre_imagen": "IMG_CAM_01_20260419_123746.jpg",
    "fecha_hora": "2026-04-19 12:37:46",
-   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+   "maquinaria": [],
+   "personas_trabajadoras": 0,
+   "seguridad_laboral": {
+    "uso_casco": "No determinable",
+    "uso_chaleco": "No determinable",
+    "uso_arnes_altura": "No determinable",
+    "observaciones": "No se observan personas en la imagen."
+   },
+   "actividad_desarrollada": "Sin actividad visible en el momento de la captura.",
+   "condiciones_climaticas": {
+    "clima_general": "Despejado",
+    "visibilidad": "Buena"
+   },
+   "etapa_constructiva": "Estructura principal y cubierta metalica avanzada",
+   "certeza": "Alta"
   },
   {
    "nombre_imagen": "IMG_CAM_01_20260419_140104.jpg",
    "fecha_hora": "2026-04-19 14:01:04",
-   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+   "maquinaria": [],
+   "personas_trabajadoras": 2,
+   "seguridad_laboral": {
+    "uso_casco": "No determinable",
+    "uso_chaleco": "Si",
+    "uso_arnes_altura": "No aplica",
+    "observaciones": "Se observan trabajadores en planta baja con chaleco reflectivo, pero la resolucion no permite detallar el uso de casco."
+   },
+   "actividad_desarrollada": "Trabajos generales en area interna de la edificacion",
+   "condiciones_climaticas": {
+    "clima_general": "Despejado",
+    "visibilidad": "Regular"
+   },
+   "etapa_constructiva": "Estructura y acabados",
+   "certeza": "Media"
   },
   {
    "nombre_imagen": "IMG_CAM_01_20260419_152418.jpg",
    "fecha_hora": "2026-04-19 15:24:18",
-   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+   "maquinaria": [
+    "Andamios"
+   ],
+   "personas_trabajadoras": 2,
+   "seguridad_laboral": {
+    "uso_casco": "No determinable",
+    "uso_chaleco": "Si",
+    "uso_arnes_altura": "No determinable",
+    "observaciones": "Se aprecian operarios trabajando en altura sobre andamios con chalecos visibles, pero la calidad de imagen no permite verificar casco ni arnes."
+   },
+   "actividad_desarrollada": "Trabajos en fachada y estructura exterior del edificio",
+   "condiciones_climaticas": {
+    "clima_general": "Despejado",
+    "visibilidad": "Regular"
+   },
+   "etapa_constructiva": "Obra gris e instalacion de estructura metalica de techo",
+   "certeza": "Media"
   }
  ],
  "total": 5,

@@ -4,27 +4,106 @@
   {
    "nombre_imagen": "IMG_CAM_01_20260422_082817.jpg",
    "fecha_hora": "2026-04-22 08:28:17",
-   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+   "maquinaria": [
+    "Manipulador telescopico"
+   ],
+   "personas_trabajadoras": 2,
+   "seguridad_laboral": {
+    "uso_casco": "No determinable",
+    "uso_chaleco": "Parcial",
+    "uso_arnes_altura": "No aplica",
+    "observaciones": "La resolucion de la imagen no permite distinguir con claridad el equipo de proteccion personal completo."
+   },
+   "actividad_desarrollada": "Trabajos generales en area de patio central y acopio de materiales.",
+   "condiciones_climaticas": {
+    "clima_general": "Nublado",
+    "visibilidad": "Regular"
+   },
+   "etapa_constructiva": "Estructura principal terminada y trabajos de acabados o cerramientos en progreso",
+   "certeza": "Media"
   },
   {
    "nombre_imagen": "IMG_CAM_01_20260422_105347.jpg",
    "fecha_hora": "2026-04-22 10:53:47",
-   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+   "maquinaria": [
+    "Andamios"
+   ],
+   "personas_trabajadoras": 6,
+   "seguridad_laboral": {
+    "uso_casco": "No determinable",
+    "uso_chaleco": "Parcial",
+    "uso_arnes_altura": "No determinable",
+    "observaciones": "Se distinguen chalecos reflectivos en algunos operarios pero no se aprecia con nitidez el uso de EPP completo debido a la resolucion."
+   },
+   "actividad_desarrollada": "Trabajos generales en planta baja y circulacion de personal.",
+   "condiciones_climaticas": {
+    "clima_general": "No determinable",
+    "visibilidad": "Regular"
+   },
+   "etapa_constructiva": "Estructura principal terminada, trabajos de cerramiento y acabados",
+   "certeza": "Media"
   },
   {
    "nombre_imagen": "IMG_CAM_01_20260422_123745.jpg",
    "fecha_hora": "2026-04-22 12:37:45",
-   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+   "maquinaria": [],
+   "personas_trabajadoras": 2,
+   "seguridad_laboral": {
+    "uso_casco": "No determinable",
+    "uso_chaleco": "Parcial",
+    "uso_arnes_altura": "No aplica",
+    "observaciones": "Se aprecian dos personas en el nivel inferior, pero por la distancia de la camara no se distinguen detalles de EPP."
+   },
+   "actividad_desarrollada": "Almacenamiento de materiales y circulacion en planta baja",
+   "condiciones_climaticas": {
+    "clima_general": "Parcialmente nublado",
+    "visibilidad": "Buena"
+   },
+   "etapa_constructiva": "Estructura de concreto y cubierta metalica finalizadas",
+   "certeza": "Media"
   },
   {
    "nombre_imagen": "IMG_CAM_01_20260422_140056.jpg",
    "fecha_hora": "2026-04-22 14:00:56",
-   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+   "maquinaria": [
+    "Retroexcavadora",
+    "Andamios"
+   ],
+   "personas_trabajadoras": 6,
+   "seguridad_laboral": {
+    "uso_casco": "Si",
+    "uso_chaleco": "Parcial",
+    "uso_arnes_altura": "No aplica",
+    "observaciones": "Se observa uso de casco pero algunos trabajadores no portan chaleco reflectivo claramente."
+   },
+   "actividad_desarrollada": "Trabajos generales en planta baja y acopio de materiales",
+   "condiciones_climaticas": {
+    "clima_general": "Parcialmente nublado",
+    "visibilidad": "Buena"
+   },
+   "etapa_constructiva": "Estructura avanzada y cerramientos con cubierta metalica",
+   "certeza": "Media"
   },
   {
    "nombre_imagen": "IMG_CAM_01_20260422_152407.jpg",
    "fecha_hora": "2026-04-22 15:24:07",
-   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+   "maquinaria": [
+    "Andamios"
+   ],
+   "personas_trabajadoras": 3,
+   "seguridad_laboral": {
+    "uso_casco": "Parcial",
+    "uso_chaleco": "Parcial",
+    "uso_arnes_altura": "No determinable",
+    "observaciones": "Se distinguen pocos operarios y la resolucion no permite verificar el EPP completo."
+   },
+   "actividad_desarrollada": "Trabajos generales en estructura de concreto y cubierta metalica",
+   "condiciones_climaticas": {
+    "clima_general": "Parcialmente nublado",
+    "visibilidad": "Regular"
+   },
+   "etapa_constructiva": "Obra gris avanzada con instalacion de estructura de techo",
+   "certeza": "Media"
   }
  ],
  "total": 5,

@@ -2,16 +2,6 @@
  "fecha": "20260427",
  "images": [
   {
-   "nombre_imagen": "IMG_CAM_01_20260427_082232.jpg",
-   "fecha_hora": "2026-04-27 08:22:32",
-   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
-  },
-  {
-   "nombre_imagen": "IMG_CAM_01_20260427_104834.jpg",
-   "fecha_hora": "2026-04-27 10:48:34",
-   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
-  },
-  {
    "nombre_imagen": "IMG_CAM_01_20260427_123244.jpg",
    "fecha_hora": "2026-04-27 12:32:44",
    "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
@@ -25,6 +15,49 @@
    "nombre_imagen": "IMG_CAM_01_20260427_151909.jpg",
    "fecha_hora": "2026-04-27 15:19:09",
    "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+  },
+  {
+   "nombre_imagen": "IMG_CAM_01_20260427_082232.jpg",
+   "fecha_hora": "2026-04-27 08:22:32",
+   "maquinaria": [
+    "Manipulador telescopico"
+   ],
+   "personas_trabajadoras": 3,
+   "seguridad_laboral": {
+    "uso_casco": "No determinable",
+    "uso_chaleco": "Parcial",
+    "uso_arnes_altura": "No aplica",
+    "observaciones": "La resolucion de la imagen no permite apreciar con detalle el uso de EPP, aunque se distinguen chalecos de alta visibilidad en algunos operarios."
+   },
+   "actividad_desarrollada": "Trabajos generales en area central y operacion de maquinaria",
+   "condiciones_climaticas": {
+    "clima_general": "Despejado",
+    "visibilidad": "Regular"
+   },
+   "etapa_constructiva": "Estructura avanzada y acabados de cubierta",
+   "certeza": "Media"
+  },
+  {
+   "nombre_imagen": "IMG_CAM_01_20260427_104834.jpg",
+   "fecha_hora": "2026-04-27 10:48:34",
+   "maquinaria": [
+    "Andamios",
+    "Carretilla"
+   ],
+   "personas_trabajadoras": 0,
+   "seguridad_laboral": {
+    "uso_casco": "No determinable",
+    "uso_chaleco": "No determinable",
+    "uso_arnes_altura": "No determinable",
+    "observaciones": "No se observan personas claramente en la toma para evaluar EPP."
+   },
+   "actividad_desarrollada": "Sin actividad visible en el momento de la captura",
+   "condiciones_climaticas": {
+    "clima_general": "Despejado",
+    "visibilidad": "Regular"
+   },
+   "etapa_constructiva": "Estructura principal y cerramientos",
+   "certeza": "Media"
   }
  ],
  "total": 5,

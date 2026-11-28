@@ -4,27 +4,111 @@
   {
    "nombre_imagen": "IMG_CAM_01_20260423_075343.jpg",
    "fecha_hora": "2026-04-23 07:53:43",
-   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+   "maquinaria": [
+    "Manipulador telescopico",
+    "Camion de carga"
+   ],
+   "personas_trabajadoras": 1,
+   "seguridad_laboral": {
+    "uso_casco": "Si",
+    "uso_chaleco": "Si",
+    "uso_arnes_altura": "No aplica",
+    "observaciones": "Se observa un trabajador con equipo de proteccion basico cerca de la tolva del camion."
+   },
+   "actividad_desarrollada": "Operaciones de carga o descarga con maquinaria y camion.",
+   "condiciones_climaticas": {
+    "clima_general": "Despejado",
+    "visibilidad": "Buena"
+   },
+   "etapa_constructiva": "Estructura avanzada y montaje de cubierta metalica",
+   "certeza": "Media"
   },
   {
    "nombre_imagen": "IMG_CAM_01_20260423_110011.jpg",
    "fecha_hora": "2026-04-23 11:00:11",
-   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+   "maquinaria": [
+    "Cargador frontal"
+   ],
+   "personas_trabajadoras": 1,
+   "seguridad_laboral": {
+    "uso_casco": "No determinable",
+    "uso_chaleco": "Si",
+    "uso_arnes_altura": "No aplica",
+    "observaciones": "Se observa un trabajador con chaleco reflectivo en la planta baja, pero la resolucion no permite detallar el uso de casco."
+   },
+   "actividad_desarrollada": "Movimientos de maquinaria y trabajos generales en planta baja",
+   "condiciones_climaticas": {
+    "clima_general": "Despejado",
+    "visibilidad": "Regular"
+   },
+   "etapa_constructiva": "Estructura avanzada y acabados / montaje de cubierta metalica",
+   "certeza": "Media"
   },
   {
    "nombre_imagen": "IMG_CAM_01_20260423_124417.jpg",
    "fecha_hora": "2026-04-23 12:44:17",
-   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+   "maquinaria": [
+    "Camion",
+    "Manipulador telescopico"
+   ],
+   "personas_trabajadoras": 0,
+   "seguridad_laboral": {
+    "uso_casco": "No determinable",
+    "uso_chaleco": "No determinable",
+    "uso_arnes_altura": "No determinable",
+    "observaciones": "No se observan trabajadores claramente en la toma para evaluar EPP."
+   },
+   "actividad_desarrollada": "Trabajos generales en el patio central de la edificacion",
+   "condiciones_climaticas": {
+    "clima_general": "Parcialmente nublado",
+    "visibilidad": "Buena"
+   },
+   "etapa_constructiva": "Estructura avanzada y acabados exteriores",
+   "certeza": "Media"
   },
   {
    "nombre_imagen": "IMG_CAM_01_20260423_140732.jpg",
    "fecha_hora": "2026-04-23 14:07:32",
-   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+   "maquinaria": [
+    "Manipulador telescopico",
+    "Camion"
+   ],
+   "personas_trabajadoras": 7,
+   "seguridad_laboral": {
+    "uso_casco": "Parcial",
+    "uso_chaleco": "Parcial",
+    "uso_arnes_altura": "No aplica",
+    "observaciones": "Algunos trabajadores no portan el equipo de proteccion completo visible."
+   },
+   "actividad_desarrollada": "Trabajos generales de construccion en estructura de varios niveles",
+   "condiciones_climaticas": {
+    "clima_general": "Parcialmente nublado",
+    "visibilidad": "Buena"
+   },
+   "etapa_constructiva": "Obra gris y acabados estructurales",
+   "certeza": "Media"
   },
   {
    "nombre_imagen": "IMG_CAM_01_20260423_153044.jpg",
    "fecha_hora": "2026-04-23 15:30:44",
-   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+   "maquinaria": [
+    "Manipulador telescopico",
+    "Camion"
+   ],
+   "personas_trabajadoras": 8,
+   "seguridad_laboral": {
+    "uso_casco": "Parcial",
+    "uso_chaleco": "Parcial",
+    "uso_arnes_altura": "No determinable",
+    "observaciones": "Se observan algunos trabajadores con equipo de proteccion pero la resolucion no permite verificar a todo el personal."
+   },
+   "actividad_desarrollada": "Movimiento de materiales y trabajos en estructura",
+   "condiciones_climaticas": {
+    "clima_general": "Nublado",
+    "visibilidad": "Buena"
+   },
+   "etapa_constructiva": "Estructura y acabados",
+   "certeza": "Media"
   }
  ],
  "total": 5,

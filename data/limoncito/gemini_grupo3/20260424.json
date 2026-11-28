@@ -4,27 +4,106 @@
   {
    "nombre_imagen": "IMG_CAM_01_20260424_084144.jpg",
    "fecha_hora": "2026-04-24 08:41:44",
-   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+   "maquinaria": [
+    "Manipulador telescopico"
+   ],
+   "personas_trabajadoras": 0,
+   "seguridad_laboral": {
+    "uso_casco": "No determinable",
+    "uso_chaleco": "No determinable",
+    "uso_arnes_altura": "No determinable",
+    "observaciones": "No se observan personas en la toma de la camara."
+   },
+   "actividad_desarrollada": "Sin actividad visible en el momento de la captura",
+   "condiciones_climaticas": {
+    "clima_general": "Despejado",
+    "visibilidad": "Regular"
+   },
+   "etapa_constructiva": "Estructura y cerramientos avanzados",
+   "certeza": "Media"
   },
   {
    "nombre_imagen": "IMG_CAM_01_20260424_104637.jpg",
    "fecha_hora": "2026-04-24 10:46:37",
-   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+   "maquinaria": [
+    "Camion",
+    "Grúa movil",
+    "Andamios"
+   ],
+   "personas_trabajadoras": 3,
+   "seguridad_laboral": {
+    "uso_casco": "Parcial",
+    "uso_chaleco": "Parcial",
+    "uso_arnes_altura": "No determinable",
+    "observaciones": "Se observan algunos trabajadores pero la resolucion no permite verificar con exactitud el equipo de proteccion completo."
+   },
+   "actividad_desarrollada": "Trabajos generales de construccion en patio central y acopio de materiales.",
+   "condiciones_climaticas": {
+    "clima_general": "Despejado",
+    "visibilidad": "Regular"
+   },
+   "etapa_constructiva": "Estructura y cerramientos",
+   "certeza": "Media"
   },
   {
    "nombre_imagen": "IMG_CAM_01_20260424_125127.jpg",
    "fecha_hora": "2026-04-24 12:51:27",
-   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+   "maquinaria": [
+    "Andamios",
+    "Hormigonera"
+   ],
+   "personas_trabajadoras": 0,
+   "seguridad_laboral": {
+    "uso_casco": "No determinable",
+    "uso_chaleco": "No determinable",
+    "uso_arnes_altura": "No determinable",
+    "observaciones": "No se aprecian personas en la imagen."
+   },
+   "actividad_desarrollada": "Sin actividad visible en el momento de la captura.",
+   "condiciones_climaticas": {
+    "clima_general": "Despejado",
+    "visibilidad": "Buena"
+   },
+   "etapa_constructiva": "Estructura avanzada con colocacion de cubierta metalica y acabados pendientes",
+   "certeza": "Alta"
   },
   {
    "nombre_imagen": "IMG_CAM_01_20260424_141438.jpg",
    "fecha_hora": "2026-04-24 14:14:38",
-   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+   "maquinaria": [],
+   "personas_trabajadoras": 2,
+   "seguridad_laboral": {
+    "uso_casco": "No determinable",
+    "uso_chaleco": "No determinable",
+    "uso_arnes_altura": "No aplica",
+    "observaciones": "Baja resolucion de la camara no permite verificar EPP con certeza"
+   },
+   "actividad_desarrollada": "Trabajos menores en planta baja y acopio de materiales",
+   "condiciones_climaticas": {
+    "clima_general": "Despejado",
+    "visibilidad": "Regular"
+   },
+   "etapa_constructiva": "Estructura y cerramientos avanzados",
+   "certeza": "Baja"
   },
   {
    "nombre_imagen": "IMG_CAM_01_20260424_153750.jpg",
    "fecha_hora": "2026-04-24 15:37:50",
-   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+   "maquinaria": [],
+   "personas_trabajadoras": 0,
+   "seguridad_laboral": {
+    "uso_casco": "No determinable",
+    "uso_chaleco": "No determinable",
+    "uso_arnes_altura": "No determinable",
+    "observaciones": "La resolucion de la imagen no permite distinguir personas ni detalles de seguridad con claridad."
+   },
+   "actividad_desarrollada": "Construccion general en estructura de concreto y metal",
+   "condiciones_climaticas": {
+    "clima_general": "Despejado",
+    "visibilidad": "Mala"
+   },
+   "etapa_constructiva": "Estructura y obra gris",
+   "certeza": "Baja"
   }
  ],
  "total": 5,
