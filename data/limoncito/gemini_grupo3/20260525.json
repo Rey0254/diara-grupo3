@@ -1,0 +1,32 @@
+{
+ "fecha": "20260525",
+ "images": [
+  {
+   "nombre_imagen": "IMG_CAM_01_20260525_080233.jpg",
+   "fecha_hora": "2026-05-25 08:02:33",
+   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+  },
+  {
+   "nombre_imagen": "IMG_CAM_01_20260525_104914.jpg",
+   "fecha_hora": "2026-05-25 10:49:14",
+   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+  },
+  {
+   "nombre_imagen": "IMG_CAM_01_20260525_123315.jpg",
+   "fecha_hora": "2026-05-25 12:33:15",
+   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+  },
+  {
+   "nombre_imagen": "IMG_CAM_01_20260525_135625.jpg",
+   "fecha_hora": "2026-05-25 13:56:25",
+   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+  },
+  {
+   "nombre_imagen": "IMG_CAM_01_20260525_151941.jpg",
+   "fecha_hora": "2026-05-25 15:19:41",
+   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
+  }
+ ],
+ "total": 5,
+ "modelo": "gemini-3.5-flash-lite"
+}
