@@ -90,7 +90,7 @@ Comparación en las 237 fotos usables que también analizó Gemini (CGR). Primer
 | Fotos con personas detectadas | 68 % de las que Gemini marca con personas | Referencia |
 | Personas contadas | 322 (menos de la mitad) | 681 |
 | Estado del día (regla de 2 fotos, solo con la muestra de 5 fotos) | Coincide en 40 de 47 días (85 %) | Referencia |
-| Costo | US$0; 0,22 s por foto en una laptop y 0,86 s en el servidor gratuito de GitHub | Gemini 3.5 Flash-Lite: US$0,30 por millón de tokens de entrada y US$2,50 por millón de salida, razonamiento incluido (precio estándar consultado el 28-nov-2026). Costo real: ver `gemini_uso_tokens.csv` |
+| Costo | US$0; 0,22 s por foto en una laptop y 0,86 s en el servidor gratuito de GitHub | Gemini 3.5 Flash-Lite: US$0,30 por millón de tokens de entrada y US$2,50 por millón de salida, razonamiento incluido (precio estándar consultado el 28-nov-2026). Medido el 28-nov-2026 en 47 fotos: 1.388 tokens de entrada y 194 de salida por foto, en promedio, o sea **US$0,0009 por foto**: US$0,005 por día con la muestra de 5 fotos y ≈ US$0,02 por día si se mandaran todas (≈ 22 por día). Detalle en `gemini_uso_tokens.csv` |
 | Qué ve | Personas y camiones | Personas, maquinaria, casco, chaleco, arnés, clima, etapa |
 
 **Con el lente empañado:** en 145 fotos borrosas de la muestra, Gemini dijo "0 trabajadores" en 114, no pudo analizar 18 y vio personas en 13. obrapublica.info muestra esos días como 0 trabajadores, aunque en realidad no se puede saber.
