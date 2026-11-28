@@ -77,6 +77,10 @@ class CuotaAgotada(Exception):
     """El nivel gratuito de Gemini llegó a su límite: se sigue en la próxima ejecución."""
 
 
+class ErrorDeConsulta(Exception):
+    """Gemini rechazó la consulta (se guarda el mensaje completo para poder diagnosticar)."""
+
+
 class ErrorDeConfiguracion(Exception):
     """Modelo inexistente, clave inválida o sin permiso: no tiene sentido seguir con las demás fotos."""
 
@@ -102,16 +106,32 @@ def analizar(foto, clave, sesion):
         if r.status_code == 429 or r.status_code >= 500:
             time.sleep(15 * (intento + 1))
             continue
-        if r.status_code == 400 and "thinking" in r.text.lower() and "thinkingConfig" in cuerpo["generationConfig"]:
-            del cuerpo["generationConfig"]["thinkingConfig"]  # algunos modelos no aceptan apagar el razonamiento
+        if r.status_code == 400 and len(cuerpo["generationConfig"]) > 1 and "API key" not in r.text:
+            # Los modelos Gemini 3 no aceptan algunos parámetros de los 2.5 (p. ej. thinkingBudget):
+            # se reintenta una vez con la configuración mínima y se deja constancia en el log.
+            print(f"Gemini 400 con la configuración completa; se reintenta con la mínima. Detalle: {r.text[:300]}", flush=True)
+            cuerpo["generationConfig"] = {"responseMimeType": "application/json"}
             continue
         if r.status_code in (401, 403, 404) or (r.status_code == 400 and "API key" in r.text):
             raise ErrorDeConfiguracion(f"{r.status_code}: {r.text[:300]}")
-        r.raise_for_status()
+        if r.status_code >= 400:
+            raise ErrorDeConsulta(f"{r.status_code}: {r.text[:500]}")
         data = r.json()
         texto = data["candidates"][0]["content"]["parts"][0]["text"]
         return json.loads(texto), data.get("usageMetadata", {})
     raise CuotaAgotada("Gemini siguió respondiendo 429/5xx después de varios intentos")
+
+
+def modelos_disponibles(clave, sesion):
+    """Lista los modelos Flash que esta clave puede usar (sirve para diagnosticar un 400/404)."""
+    try:
+        r = sesion.get("https://generativelanguage.googleapis.com/v1beta/models?pageSize=200",
+                       headers={"x-goog-api-key": clave}, timeout=30)
+        nombres = [m["name"].split("/")[-1] for m in r.json().get("models", [])
+                   if "generateContent" in m.get("supportedGenerationMethods", [])]
+        return [n for n in nombres if "flash" in n]
+    except Exception as e:  # noqa: BLE001
+        return [f"(no se pudo listar: {e})"]
 
 
 def main():
@@ -127,6 +147,8 @@ def main():
     pendientes = [f for f in muestra if f["archivo"] not in hechos]
     print(f"Muestra: {len(muestra)} fotos en {len({f['fecha'] for f in muestra})} días; pendientes: {len(pendientes)}")
     sesion = requests.Session()
+    print(f"Modelo: {MODELO}. Modelos Flash disponibles para esta clave: {', '.join(modelos_disponibles(clave, sesion))}")
+    rechazos_seguidos = 0
     nuevo = not USO.exists()
     with open(USO, "a", newline="", encoding="utf-8") as fu:
         wu = csv.writer(fu)
@@ -144,9 +166,19 @@ def main():
                 print(f"Gemini rechazó la consulta por configuración (modelo {MODELO}), no por la foto. "
                       f"Se detiene sin marcar fotos como no analizables. Detalle: {e}")
                 break
+            except ErrorDeConsulta as e:
+                rechazos_seguidos += 1
+                print(f"Gemini rechazó {f['archivo']}: {e}", flush=True)
+                if rechazos_seguidos >= 3:
+                    print("Tres rechazos seguidos: el problema es la consulta, no las fotos. Se detiene aquí.")
+                    break
+                res, uso = {"nombre_imagen": f["archivo"], "fecha_hora": f"{f['fecha']} {f['hora']}",
+                            "error": f"Imagen no analizable: {e}"}, {}
             except Exception as e:  # noqa: BLE001
                 res, uso = {"nombre_imagen": f["archivo"], "fecha_hora": f"{f['fecha']} {f['hora']}",
                             "error": f"Imagen no analizable: {e}"}, {}
+            else:
+                rechazos_seguidos = 0
             dia = SALIDA / f"{f['fecha'].replace('-', '')}.json"
             actual = json.loads(dia.read_text()) if dia.exists() else {"fecha": f["fecha"].replace("-", ""), "images": []}
             actual["images"] = [i for i in actual["images"] if i["nombre_imagen"] != f["archivo"]] + [res]
