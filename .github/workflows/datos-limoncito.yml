@@ -30,7 +30,11 @@ jobs:
     env:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
     steps:
+      # Siempre se trabaja sobre la rama de datos, aunque la ejecución diaria se dispare desde main:
+      # así el bot nunca hace cambios directos en main (regla del grupo); los datos llegan a main por PR.
       - uses: actions/checkout@v4
+        with:
+          ref: datos-automatizacion
 
       - uses: actions/setup-python@v5
         with:
@@ -65,5 +69,6 @@ jobs:
             echo "Sin cambios en los datos."
           else
             git commit -m "Datos Limoncito: actualización automática $(date -u +%Y-%m-%d)"
-            git push
+            git pull --rebase --autostash origin datos-automatizacion
+            git push origin HEAD:datos-automatizacion
           fi

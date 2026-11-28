@@ -71,6 +71,10 @@ def elegir_muestra():
     return muestra
 
 
+class CuotaAgotada(Exception):
+    """El nivel gratuito de Gemini llegó a su límite: se sigue en la próxima ejecución."""
+
+
 def analizar(foto, clave, sesion):
     img = cv2.imread(str(DATOS / "fotos" / foto["fecha"] / foto["archivo"]))
     if foto["orientacion"] == "invertida":
@@ -87,6 +91,8 @@ def analizar(foto, clave, sesion):
     for intento in range(5):
         r = sesion.post(URL.format(modelo=MODELO), json=cuerpo, timeout=120,
                         headers={"x-goog-api-key": clave, "Content-Type": "application/json"})
+        if r.status_code == 429 and "PerDay" in r.text:
+            raise CuotaAgotada(r.text[:200])
         if r.status_code == 429 or r.status_code >= 500:
             time.sleep(15 * (intento + 1))
             continue
@@ -94,7 +100,7 @@ def analizar(foto, clave, sesion):
         data = r.json()
         texto = data["candidates"][0]["content"]["parts"][0]["text"]
         return json.loads(texto), data.get("usageMetadata", {})
-    raise RuntimeError("Gemini no respondió después de varios intentos")
+    raise CuotaAgotada("Gemini siguió respondiendo 429/5xx después de varios intentos")
 
 
 def main():
@@ -105,7 +111,8 @@ def main():
     muestra = elegir_muestra()
     hechos = set()
     if USO.exists():
-        hechos = {r["archivo"] for r in csv.DictReader(open(USO, encoding="utf-8"))}
+        # Las filas sin tokens fueron errores: se reintentan.
+        hechos = {r["archivo"] for r in csv.DictReader(open(USO, encoding="utf-8")) if r["tokens_entrada"]}
     pendientes = [f for f in muestra if f["archivo"] not in hechos]
     print(f"Muestra: {len(muestra)} fotos en {len({f['fecha'] for f in muestra})} días; pendientes: {len(pendientes)}")
     sesion = requests.Session()
@@ -119,6 +126,9 @@ def main():
             try:
                 res, uso = analizar(f, clave, sesion)
                 res = {"nombre_imagen": f["archivo"], "fecha_hora": f"{f['fecha']} {f['hora']}", **res}
+            except CuotaAgotada as e:
+                print(f"Se alcanzó el límite gratuito de Gemini ({n - 1} fotos hoy). Se continúa en la próxima ejecución. {e}")
+                break
             except Exception as e:  # noqa: BLE001
                 res, uso = {"nombre_imagen": f["archivo"], "fecha_hora": f"{f['fecha']} {f['hora']}",
                             "error": f"Imagen no analizable: {e}"}, {}
