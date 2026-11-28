@@ -1,0 +1,10 @@
+# Fotos descargadas y cachés locales del módulo de datos (se regeneran con los scripts)
+data/limoncito/fotos/
+data/limoncito/cache_listados/
+data/limoncito/cache_*/
+__pycache__/
+*.pyc
+.env
+*.pt
+data/limoncito/cache_deteccion.jsonl
+yolo11s_openvino_model/

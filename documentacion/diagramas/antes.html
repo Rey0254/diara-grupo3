@@ -1,0 +1,79 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="estilo.css"></head><body>
+<h1>Antes: el flujo actual de dIAra, medido con los datos reales</h1>
+<div class="sub">Escuela Barrio Limoncito · 6.575 fotos de la cámara, del 11-sep-2025 al 2-jul-2026 · Actualiza el mapa de la Fase I con lo que mostraron los datos</div>
+<div class="legend">
+  <span><i class="sw"></i>Paso automático</span>
+  <span><i class="sw m"></i>Paso manual</span>
+  <span><i class="box"></i>Punto de quiebre, con la cifra medida</span>
+</div>
+<div class="grid">
+  <div class="colh">Etapa y qué ocurre hoy</div>
+  <div class="colh">Qué encontramos al procesar los datos</div>
+
+  <div class="stage"><div class="num">1</div><div>
+    <div class="st-h"><span class="st-t">Captura en la obra</span><span class="chip a">Automático</span></div>
+    <div class="st-b">Cámara ESP32 en un poste; una foto cada ~21 min, de 6 a. m. a 5 p. m., todos los días.</div>
+    <div class="dato"><b>Dato:</b> fotografía JPG</div>
+  </div></div>
+  <div class="brk"><div><b>Fallas que nadie vio a tiempo:</b> 44 días de fotos quemadas, 97 días con el lente empañado y la cámara de cabeza desde el 18-abr-2026. No hay fotos de noche.</div></div>
+
+  <div class="conn"><i class="v"></i><i class="h"></i><span class="lbl">envío automático</span></div><div></div>
+
+  <div class="stage"><div class="num">2</div><div>
+    <div class="st-h"><span class="st-t">Almacenamiento en Drive</span><span class="chip a">Automático</span></div>
+    <div class="st-b">Carpetas por día en Google Drive, públicas por enlace.</div>
+    <div class="dato"><b>Dato:</b> 6.575 fotos crudas, 3 formatos de nombre distintos</div>
+  </div></div>
+  <div class="brk"><div><b>38 % no sirve:</b> 2.466 fotos borrosas, quemadas u oscuras, mezcladas con las buenas y sin ninguna marca.</div></div>
+
+  <div class="conn"><i class="v m"></i><i class="h m"></i><span class="lbl">descarga y consulta a mano</span></div><div></div>
+
+  <div class="stage"><div class="num">3</div><div>
+    <div class="st-h"><span class="st-t">Análisis con IA</span><span class="chip m">Manual</span></div>
+    <div class="st-b">Gemini analiza 5 fotos por día hábil, una por una, sin filtrar antes su calidad.</div>
+    <div class="dato"><b>Dato:</b> 385 fotos analizadas (6 % del total), ene–abr 2026</div>
+  </div></div>
+  <div class="brk"><div><b>"0 trabajadores" donde no se ve nada:</b> de 145 fotos empañadas, Gemini respondió 0 en 114. Un día sin visibilidad parece un día sin trabajo.</div></div>
+
+  <div class="conn"><i class="v m"></i><i class="h m"></i><span class="lbl">carga manual al sitio</span></div><div></div>
+
+  <div class="stage"><div class="num">4</div><div>
+    <div class="st-h"><span class="st-t">Visualización</span><span class="chip m">Manual</span></div>
+    <div class="st-b">obrapublica.info muestra fotos, conteos y un resumen por día.</div>
+    <div class="dato"><b>Dato:</b> 77 de los 293 días con fotos</div>
+  </div></div>
+  <div class="brk"><div><b>Cubre una cuarta parte:</b> sep–dic-2025 y del 18-abr al 2-jul-2026 no aparecen. No distingue "no se puede saber" de "no se trabajó".</div></div>
+
+  <div class="conn"><i class="v m"></i><i class="h m"></i><span class="lbl">consulta a demanda</span></div><div></div>
+
+  <div class="split">
+    <div class="stage"><div class="num">5</div><div>
+      <div class="st-t" style="margin-bottom:3px">Fiscalizador CGR</div>
+      <div class="st-b">Revisa cuando tiene tiempo; no recibe avisos.</div>
+    </div></div>
+    <div class="stage"><div class="num">6</div><div>
+      <div class="st-t" style="margin-bottom:3px">Ciudadanía</div>
+      <div class="st-b">Solo llega si conoce el enlace.</div>
+    </div></div>
+  </div>
+  <div class="brk"><div><b>Sin alertas ni canal proactivo:</b> el formulario de WhatsApp del sitio es un demo y no suscribe a nadie.</div></div>
+</div>
+<div class="strip">
+  <div class="strip-h">Así se ven las fallas <small>· fotos reales de la cámara de Limoncito, sin editar</small></div>
+  <div class="strip-g">
+    <figure><img src="foto_oscura.jpg" alt=""><figcaption><b>Oscura</b> · 15-sep-2025, 12:01 (instalación)</figcaption></figure>
+    <figure><img src="foto_quemada.jpg" alt=""><figcaption><b>Quemada</b> · 15-oct-2025, 12:28 (44 días así)</figcaption></figure>
+    <figure><img src="foto_empanada.jpg" alt=""><figcaption><b>Empañada</b> · 10-dic-2025, 10:00: había un colado con ~10 trabajadores</figcaption></figure>
+    <figure><img src="foto_invertida.jpg" alt=""><figcaption><b>De cabeza</b> · 14-may-2026, 12:13 (desde el 18-abr)</figcaption></figure>
+  </div>
+</div>
+<div class="band">
+  <div class="band-h">Lo que se pierde hoy <small>· medido en la serie completa de Limoncito</small></div>
+  <div class="band-g">
+    <div class="cell r"><b>97 días</b>con el lente empañado sin que nadie fuera avisado</div>
+    <div class="cell r"><b>94 %</b>de las fotos nunca se analizan</div>
+    <div class="cell r"><b>4 pasos manuales</b>entre la cámara y el ciudadano</div>
+  </div>
+</div>
+<div class="foot">Fuente: elaboración propia (Grupo 3) a partir de la carpeta pública de la CGR en Google Drive, los datos abiertos de obrapublica.info y la presentación de la CGR en la clase del 23-sep-2026.</div>
+</body></html>
