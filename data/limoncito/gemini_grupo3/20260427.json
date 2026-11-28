@@ -2,21 +2,6 @@
  "fecha": "20260427",
  "images": [
   {
-   "nombre_imagen": "IMG_CAM_01_20260427_123244.jpg",
-   "fecha_hora": "2026-04-27 12:32:44",
-   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
-  },
-  {
-   "nombre_imagen": "IMG_CAM_01_20260427_141644.jpg",
-   "fecha_hora": "2026-04-27 14:16:44",
-   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
-  },
-  {
-   "nombre_imagen": "IMG_CAM_01_20260427_151909.jpg",
-   "fecha_hora": "2026-04-27 15:19:09",
-   "error": "Imagen no analizable: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent"
-  },
-  {
    "nombre_imagen": "IMG_CAM_01_20260427_082232.jpg",
    "fecha_hora": "2026-04-27 08:22:32",
    "maquinaria": [
@@ -57,6 +42,65 @@
     "visibilidad": "Regular"
    },
    "etapa_constructiva": "Estructura principal y cerramientos",
+   "certeza": "Media"
+  },
+  {
+   "nombre_imagen": "IMG_CAM_01_20260427_123244.jpg",
+   "fecha_hora": "2026-04-27 12:32:44",
+   "maquinaria": [],
+   "personas_trabajadoras": 5,
+   "seguridad_laboral": {
+    "uso_casco": "Si",
+    "uso_chaleco": "Si",
+    "uso_arnes_altura": "No aplica",
+    "observaciones": "Se observa al personal con chalecos reflectivos y cascos, sin requerir arneses al nivel de piso."
+   },
+   "actividad_desarrollada": "Trabajos generales en area interna de la edificacion",
+   "condiciones_climaticas": {
+    "clima_general": "No determinable",
+    "visibilidad": "Regular"
+   },
+   "etapa_constructiva": "Estructura y obra gris",
+   "certeza": "Media"
+  },
+  {
+   "nombre_imagen": "IMG_CAM_01_20260427_141644.jpg",
+   "fecha_hora": "2026-04-27 14:16:44",
+   "maquinaria": [],
+   "personas_trabajadoras": 2,
+   "seguridad_laboral": {
+    "uso_casco": "No determinable",
+    "uso_chaleco": "Parcial",
+    "uso_arnes_altura": "No aplica",
+    "observaciones": "Se aprecian dos personas en planta baja, una con chaleco visible"
+   },
+   "actividad_desarrollada": "Trabajos generales en area interna",
+   "condiciones_climaticas": {
+    "clima_general": "No determinable",
+    "visibilidad": "Regular"
+   },
+   "etapa_constructiva": "Estructura y acabados intermedios",
+   "certeza": "Media"
+  },
+  {
+   "nombre_imagen": "IMG_CAM_01_20260427_151909.jpg",
+   "fecha_hora": "2026-04-27 15:19:09",
+   "maquinaria": [
+    "Concretera"
+   ],
+   "personas_trabajadoras": 4,
+   "seguridad_laboral": {
+    "uso_casco": "Parcial",
+    "uso_chaleco": "Parcial",
+    "uso_arnes_altura": "No determinable",
+    "observaciones": "Se distinguen algunos operarios pero la nitidez no permite verificar el EPP completo."
+   },
+   "actividad_desarrollada": "Trabajos generales en planta baja y estructura",
+   "condiciones_climaticas": {
+    "clima_general": "No determinable",
+    "visibilidad": "Regular"
+   },
+   "etapa_constructiva": "Obra gris con estructura metalica de techo",
    "certeza": "Media"
   }
  ],

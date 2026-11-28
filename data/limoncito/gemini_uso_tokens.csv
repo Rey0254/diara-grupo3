@@ -426,3 +426,7 @@ fecha,hora,archivo,modelo,tokens_entrada,tokens_salida,segundos
 2026-04-26,15:31:45,IMG_CAM_01_20260426_153145.jpg,gemini-3.5-flash-lite,1388,202,1.93
 2026-04-27,08:22:32,IMG_CAM_01_20260427_082232.jpg,gemini-3.5-flash-lite,1388,205,1.7
 2026-04-27,10:48:34,IMG_CAM_01_20260427_104834.jpg,gemini-3.5-flash-lite,1388,192,2.25
+2026-04-27,12:32:44,IMG_CAM_01_20260427_123244.jpg,gemini-3.5-flash-lite,1388,180,1.92
+2026-04-27,14:16:44,IMG_CAM_01_20260427_141644.jpg,gemini-3.5-flash-lite,1388,174,2.11
+2026-04-27,15:19:09,IMG_CAM_01_20260427_151909.jpg,gemini-3.5-flash-lite,1388,187,2.7
+2026-04-28,09:11:57,IMG_CAM_01_20260428_091157.jpg,gemini-3.5-flash-lite,1388,205,1.6
