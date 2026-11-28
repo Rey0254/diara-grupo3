@@ -31,7 +31,9 @@ DATOS = RAIZ / "data" / "limoncito"
 SALIDA = DATOS / "gemini_grupo3"
 USO = DATOS / "gemini_uso_tokens.csv"
 
-MODELO = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+# gemini-2.5-* ya no está disponible para claves nuevas (responde 404); Google recomienda 3.5 Flash-Lite
+# para proyectos nuevos, y es el modelo más barato con nivel gratuito.
+MODELO = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash-lite")
 DESDE = os.environ.get("GEMINI_DESDE", "2026-04-18")
 FOTOS_MANANA, FOTOS_TARDE = 2, 3
 URL = "https://generativelanguage.googleapis.com/v1beta/models/{modelo}:generateContent"
@@ -75,6 +77,10 @@ class CuotaAgotada(Exception):
     """El nivel gratuito de Gemini llegó a su límite: se sigue en la próxima ejecución."""
 
 
+class ErrorDeConfiguracion(Exception):
+    """Modelo inexistente, clave inválida o sin permiso: no tiene sentido seguir con las demás fotos."""
+
+
 def analizar(foto, clave, sesion):
     img = cv2.imread(str(DATOS / "fotos" / foto["fecha"] / foto["archivo"]))
     if foto["orientacion"] == "invertida":
@@ -88,7 +94,7 @@ def analizar(foto, clave, sesion):
         "generationConfig": {"responseMimeType": "application/json", "temperature": 0.2,
                              "thinkingConfig": {"thinkingBudget": 0}},
     }
-    for intento in range(5):
+    for intento in range(6):
         r = sesion.post(URL.format(modelo=MODELO), json=cuerpo, timeout=120,
                         headers={"x-goog-api-key": clave, "Content-Type": "application/json"})
         if r.status_code == 429 and "PerDay" in r.text:
@@ -96,6 +102,11 @@ def analizar(foto, clave, sesion):
         if r.status_code == 429 or r.status_code >= 500:
             time.sleep(15 * (intento + 1))
             continue
+        if r.status_code == 400 and "thinking" in r.text.lower() and "thinkingConfig" in cuerpo["generationConfig"]:
+            del cuerpo["generationConfig"]["thinkingConfig"]  # algunos modelos no aceptan apagar el razonamiento
+            continue
+        if r.status_code in (401, 403, 404) or (r.status_code == 400 and "API key" in r.text):
+            raise ErrorDeConfiguracion(f"{r.status_code}: {r.text[:300]}")
         r.raise_for_status()
         data = r.json()
         texto = data["candidates"][0]["content"]["parts"][0]["text"]
@@ -129,6 +140,10 @@ def main():
             except CuotaAgotada as e:
                 print(f"Se alcanzó el límite gratuito de Gemini ({n - 1} fotos hoy). Se continúa en la próxima ejecución. {e}")
                 break
+            except ErrorDeConfiguracion as e:
+                print(f"Gemini rechazó la consulta por configuración (modelo {MODELO}), no por la foto. "
+                      f"Se detiene sin marcar fotos como no analizables. Detalle: {e}")
+                break
             except Exception as e:  # noqa: BLE001
                 res, uso = {"nombre_imagen": f["archivo"], "fecha_hora": f"{f['fecha']} {f['hora']}",
                             "error": f"Imagen no analizable: {e}"}, {}
@@ -139,7 +154,7 @@ def main():
             actual["modelo"] = MODELO
             dia.write_text(json.dumps(actual, ensure_ascii=False, indent=1))
             wu.writerow([f["fecha"], f["hora"], f["archivo"], MODELO, uso.get("promptTokenCount", ""),
-                         uso.get("candidatesTokenCount", ""), round(time.time() - t0, 2)])
+                         (uso.get("candidatesTokenCount", 0) + uso.get("thoughtsTokenCount", 0)) if uso else "", round(time.time() - t0, 2)])
             fu.flush()
             if n % 25 == 0:
                 print(f"{n}/{len(pendientes)}", flush=True)
